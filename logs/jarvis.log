@@ -1,0 +1,87 @@
+2026-07-24 02:33:04,151 ERROR Error in main loop
+Traceback (most recent call last):
+  File "C:\Users\Asus\downloads\jarvis\jarvis\main.py", line 30, in main
+    tts.speak("Yes?")
+  File "C:\Users\Asus\downloads\jarvis\jarvis\assistant\voice\tts.py", line 22, in speak
+    with wave.open(buf, "wb") as wav_file:
+  File "C:\Program Files\Python312\Lib\wave.py", line 471, in __exit__
+    self.close()
+  File "C:\Program Files\Python312\Lib\wave.py", line 583, in close
+    self._ensure_header_written(0)
+  File "C:\Program Files\Python312\Lib\wave.py", line 601, in _ensure_header_written
+    raise Error('# channels not specified')
+wave.Error: # channels not specified
+2026-07-24 02:33:37,065 ERROR Error in main loop
+Traceback (most recent call last):
+  File "C:\Users\Asus\downloads\jarvis\jarvis\main.py", line 30, in main
+    tts.speak("Yes?")
+  File "C:\Users\Asus\downloads\jarvis\jarvis\assistant\voice\tts.py", line 22, in speak
+    with wave.open(buf, "wb") as wav_file:
+  File "C:\Program Files\Python312\Lib\wave.py", line 471, in __exit__
+    self.close()
+  File "C:\Program Files\Python312\Lib\wave.py", line 583, in close
+    self._ensure_header_written(0)
+  File "C:\Program Files\Python312\Lib\wave.py", line 601, in _ensure_header_written
+    raise Error('# channels not specified')
+wave.Error: # channels not specified
+2026-07-24 02:36:01,526 INFO Wake word detected
+2026-07-24 02:36:21,272 INFO User: Hey Jervis.
+2026-07-24 02:36:32,811 INFO Jarvis: Hello, how can I assist you?
+2026-07-24 02:36:40,387 INFO User: Hey Derbys!
+2026-07-24 02:36:43,503 INFO Jarvis: Hello again!
+2026-07-24 02:42:16,326 INFO Wake word detected
+2026-07-24 02:43:03,168 INFO Wake word detected
+2026-07-24 02:43:28,580 INFO User: Hey Jarvis.
+2026-07-24 02:43:39,985 INFO Jarvis: Hello again!
+2026-07-24 02:43:57,929 INFO Wake word detected
+2026-07-24 02:44:05,188 INFO User: Open VSCode
+2026-07-24 02:44:08,672 INFO Jarvis: Bad arguments for open_vscode: assistant.tools.vscode.open_vscode() argument after ** must be a mapping, not str
+2026-07-24 02:46:11,330 INFO Wake word detected
+2026-07-24 02:46:19,081 INFO User: Open VS code.
+2026-07-24 02:46:22,821 INFO Jarvis: Bad arguments for open_vscode: assistant.tools.vscode.open_vscode() argument after ** must be a mapping, not str
+2026-07-24 02:46:35,766 INFO Wake word detected
+2026-07-24 02:46:43,248 INFO User: Open Chrome.
+2026-07-24 02:46:46,714 INFO Jarvis: Error running open_chrome: [WinError 2] The system cannot find the file specified
+2026-07-24 02:46:57,807 INFO Wake word detected
+2026-07-24 02:47:05,458 INFO User: Open GST assistant folder.
+2026-07-24 02:47:08,674 INFO Jarvis: Bad arguments for open_folder_vscode: open_folder() got an unexpected keyword argument 'folder_path'
+2026-07-24 02:51:44,099 INFO Wake word detected
+2026-07-24 02:51:52,536 INFO User: Open VS Code
+2026-07-24 02:51:56,072 INFO Jarvis: Opening VS Code.
+2026-07-24 02:52:22,608 INFO Wake word detected
+2026-07-24 02:52:28,549 INFO User: Open Chrome
+2026-07-24 02:52:31,835 INFO Jarvis: Opening Chrome.
+2026-07-24 02:58:45,665 INFO Wake word detected
+2026-07-24 02:58:54,645 INFO User: Open VS code.
+2026-07-24 02:59:06,366 INFO Jarvis: Opening VS Code.
+2026-07-24 03:02:34,110 INFO Wake word detected
+2026-07-24 03:02:42,197 INFO User: Open VS code.
+2026-07-24 03:02:45,724 INFO Jarvis: Opening VS Code.
+2026-07-24 03:04:24,599 INFO Wake word detected
+2026-07-24 03:04:34,699 INFO User: Open VS code.
+2026-07-24 03:04:38,257 INFO Jarvis: Opening VS Code.
+2026-07-24 03:06:20,009 INFO Wake word detected
+2026-07-24 03:07:06,775 INFO Wake word detected
+2026-07-24 03:07:12,862 INFO User: Open VS Code
+2026-07-24 03:07:16,410 INFO Jarvis: Opening VS Code.
+2026-07-24 03:12:03,028 INFO Wake word detected
+2026-07-24 03:12:10,861 INFO User: Open vscode
+2026-07-24 03:12:14,545 INFO Jarvis: Opening VS Code.
+2026-07-24 03:13:28,173 INFO Wake word detected
+2026-07-24 03:13:38,661 INFO User: Commit changes on VS Code
+2026-07-24 03:13:42,076 INFO Jarvis: Opening VS Code.
+2026-07-24 03:15:53,784 INFO Wake word detected
+2026-07-24 03:16:01,796 INFO User: Check GIT status.
+2026-07-24 03:16:05,206 INFO Jarvis: No active project.
+2026-07-24 03:16:24,953 INFO Wake word detected
+2026-07-24 03:16:31,419 INFO User: Open GST project
+2026-07-24 03:16:34,662 INFO Jarvis: Project '' not found.
+2026-07-24 03:16:48,023 INFO Wake word detected
+2026-07-24 03:16:55,378 INFO User: Open GSD Assistant Project
+2026-07-24 03:16:58,802 INFO Jarvis: Opening VS Code.
+2026-07-24 03:17:25,639 INFO Wake word detected
+2026-07-24 03:17:36,098 INFO User: Open GST Assisted Folder on VS Code.
+2026-07-24 03:17:39,655 INFO Jarvis: Folder or project 'GST Assisted Folder' not found.
+2026-07-24 03:18:01,022 INFO Wake word detected
+2026-07-24 03:18:09,280 INFO User: Open GST Assistant
+2026-07-24 03:18:12,779 INFO Jarvis: Opening VS Code.
