@@ -1,4 +1,5 @@
 import logging
+import random
 import os
 import time
 from logging.handlers import RotatingFileHandler
@@ -49,7 +50,15 @@ def main() -> None:
             print("\n[Wake Word Detected!]")
             logger.info("Wake word detected")
 
-            tts.speak("Yes?")
+            GREETINGS = [
+                f"Welcome back, {cfg.owner_name}. How can I help you?",
+                f"Hello {cfg.owner_name}. What are we building today?",
+                f"Good to see you, {cfg.owner_name}.",
+                f"Ready when you are, {cfg.owner_name}.",
+                f"Hi {cfg.owner_name}. What can I do for you today?"
+            ]
+            greeting = random.choice(GREETINGS)
+            tts.speak(greeting)
 
             # Stay awake for 2 minutes
             awake_timeout = 120

@@ -7,6 +7,8 @@ load_dotenv()
 
 @dataclass
 class Config:
+    owner_name = os.getenv("OWNER_NAME", "User")
+    owner_full_name = os.getenv("OWNER_FULL_NAME", "User")
     wake_word: str = os.getenv("WAKE_WORD", "jarvis")
     wake_word_model: str = os.getenv("WAKE_WORD_MODEL", "hey_jarvis")
     stt_model: str = os.getenv("STT_MODEL", "base")

@@ -1746,3 +1746,128 @@ During task with name 'plan' and id '1a09fb29-3be7-3486-1f09-f1a438a89ba1'
 2026-07-24 19:35:15,528 INFO Jarvis: I think you're referring to an asteroid impact, but I'm not aware of any recent news about such an event.
 2026-07-24 19:35:54,509 INFO User: Some people had a mask, while many people had to run towards the sea to save their lives without a mask. All people started running towards the ships in the sea, because that was the last chance to escape. John also used to take his family to the sea. John, as soon as he was in the sea, some people snatched his mask. But somehow, he entered into a boat with his family. On time, he immediately closed the door. Luckily, his boat landed in the sea.
 2026-07-24 19:35:59,572 INFO Jarvis: I didn't understand that.
+2026-07-24 19:36:44,476 INFO User: It was easy to answer, but the thing was that he was still able to move forward. Because he had made these ships this way. The sea was in danger, and nothing could harm him. On the night, John's son, Nathan, was still seeing many planets in the sky. He was moving towards the earth. It was clear that the danger of the earth was not completely over. After several days of travel, he reached the banks of the sea. At first, everyone thought that the whole of London would have been saved. But after seeing it carefully, everyone was standing there. Because the whole of the city was in the water. Not in the sea, but in the whole of London.
+2026-07-24 19:36:47,803 INFO Jarvis: I didn't understand that.
+2026-07-24 19:37:05,741 INFO User: that's why they stopped going in but they didn't have anyone there so they didn't let anyone in
+2026-07-24 19:37:09,942 INFO Jarvis: I think you're referring to the Titanic disaster, where people had to jump into the sea without life jackets and some were even attacked by others while trying to escape.
+2026-07-24 19:38:02,870 INFO User: On the way, many comets started to fall from the sky. All of them caught the trees there. But that man thought to save his car. As soon as he reached the car, a comet hit him. Along with his car, he also became a rock there. After that, John took his family with him. He reached his aunt's house in London. Along with him was a woman who was a doctor. The amazing thing was that John's aunt was still alive. Actually, a bunker was built below his house. Because of this, he was still alive. There were many more people there. After so many days, we found a safe place.
+2026-07-24 19:38:10,835 INFO Jarvis: I didn't understand that.
+2026-07-24 19:38:24,681 INFO User: John's aunt gave him a gun for her safety during the journey. Everything was fine the whole day, but as it was night, a few tears fell on him.
+2026-07-24 19:38:28,859 INFO Jarvis: I think you're referring to the Titanic disaster, where people had to jump into the sea without life jackets and some were even attacked by others while trying to escape.
+2026-07-24 19:38:47,112 INFO User: Sleep. Jerry, sleep.
+2026-07-24 19:38:51,238 INFO Jarvis: I think you're referring to the Titanic disaster, where people had to jump into the sea without life jackets and some were even attacked by others while trying to escape.
+2026-07-24 23:51:10,431 INFO Wake word detected
+2026-07-24 23:51:19,669 INFO User: What is my name?
+2026-07-24 23:51:23,861 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 180, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 109, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 86, in plan
+    raw = self.llm.invoke(prompt).content
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 476, in invoke
+    self.generate_prompt(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1849, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1656, in generate
+    self._generate_with_cache(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1994, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_ollama\chat_models.py", line 1200, in _generate
+    final_chunk = self._chat_stream_with_aggregation(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_ollama\chat_models.py", line 1135, in _chat_stream_with_aggregation
+    for chunk in self._iterate_over_stream(messages, stop, **kwargs):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_ollama\chat_models.py", line 1224, in _iterate_over_stream
+    for stream_resp in self._create_chat_stream(messages, stop, **kwargs):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langchain_ollama\chat_models.py", line 1122, in _create_chat_stream
+    yield from self._client.chat(**chat_params)
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\ollama\_client.py", line 184, in inner
+    with self._client.stream(*args, **kwargs) as r:
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_client.py", line 868, in stream
+    response = self.send(
+               ^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+During task with name 'plan' and id '06ef502e-6d53-246e-c4a6-ef2c3f60113b'
+2026-07-25 00:01:52,631 INFO Wake word detected
+2026-07-25 00:02:02,769 INFO User: I'm ready I haven't said anything yet
+2026-07-25 00:02:27,636 INFO Jarvis: You're ready, but you haven't said anything yet.
+2026-07-25 00:03:17,484 INFO User: My Monday with Aayush bhai is coming. Don't put the bus here. Yes, I don't want to put it here. The bus will stop at my place. Don't you have enough money? 52,000 is enough. Is it enough or not? It's enough.
+2026-07-25 00:03:29,704 INFO Jarvis: I didn't understand that.
+2026-07-25 00:09:35,448 INFO Wake word detected
+2026-07-25 00:10:28,903 INFO User: Hmmmm. Look at that, what a name Charvish gave me.
+2026-07-25 00:10:52,258 INFO Jarvis: I didn't understand that.
