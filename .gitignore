@@ -44,3 +44,7 @@ jarvis.log
 Start Jarvis.bat
 
 .env
+
+# Logs
+logs/
+*.log
