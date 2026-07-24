@@ -412,7 +412,7 @@ def git_init_and_push_new_repo(repo_name=None, private=False, *args, **kwargs):
     # 1. Initialize local Git
     _run_git(path, "init")
 
-    # Remove stale origin remote if it already exists to prevent "Unable to add remote origin" error
+    # Remove stale origin remote if present
     _run_git(path, "remote", "remove", "origin")
 
     # 2. Stage & Commit
@@ -438,12 +438,18 @@ def git_init_and_push_new_repo(repo_name=None, private=False, *args, **kwargs):
         return f"Successfully created GitHub repo '{clean_repo_name}' and pushed initial code!"
 
     error_msg = (result.stderr or result.stdout).strip()
+    
 
-    # Fallback: If repo already exists on GitHub, link and force push
+    # Fallback: If repo already exists on GitHub, link and force push cleanly
     if "already exists" in error_msg.lower():
-        # Get username from gh
-        _, username = _run_git(path, "gh", "api", "user", "-q", ".login")
-        user = username if username else "shubham-1shinde"
+        gh_user_proc = subprocess.run(
+            "gh api user -q .login",
+            cwd=path,
+            shell=True,
+            capture_output=True,
+            text=True,
+        )
+        user = gh_user_proc.stdout.strip() if gh_user_proc.returncode == 0 and gh_user_proc.stdout.strip() else "shubham-1shinde"
         remote_url = f"https://github.com/{user}/{clean_repo_name}.git"
         
         _run_git(path, "remote", "add", "origin", remote_url)

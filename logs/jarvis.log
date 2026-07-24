@@ -966,3 +966,78 @@ Alternatively, populate the GH_TOKEN environment variable with a GitHub API auth
 2026-07-24 16:56:32,136 INFO User: Commit changes? No.
 2026-07-24 16:56:38,678 INFO Jarvis: Please specify the commit message.
 2026-07-24 16:56:52,309 INFO User: Integrated GitHub Workflow
+2026-07-24 16:57:01,549 INFO Jarvis: Failed to push to existing repo: warning: url contains a newline in its path component: https://github.com/git: 'gh' is not a git com
+2026-07-24 16:58:00,164 INFO User: Thank you.
+2026-07-24 16:58:23,389 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 16:59:26,378 INFO User: Thank you very much for your time, and I'll see you in the next video. Thank you.
+2026-07-24 16:59:33,312 INFO Jarvis: Goodbye, have a great day!
+2026-07-24 17:00:22,732 INFO User: Good afternoon, Ayesha, main Jarvis Moon, Bolo Kiyokarna High. Open Jarvis simple project in B.S. Moon.
+2026-07-24 17:00:29,900 INFO Jarvis: Opening project Jarvis simple project.
+2026-07-24 17:03:05,585 INFO Wake word detected
+2026-07-24 17:04:05,009 INFO User: I Excuse me
+2026-07-24 17:04:12,790 INFO Jarvis: Hello again, how can I assist you?
+2026-07-24 17:04:24,337 INFO User: Commit and push
+2026-07-24 17:04:31,653 INFO Jarvis: warning: url contains a newline in its path component: https://github.com/git: 'gh' is not a git command. See 'git --help'.
+
+The most similar command is
+	gc/jarvis.git/
+fatal: credential url cannot be parsed: https://github.com/git: 'gh' is not a git command. See 'git --help'.
+
+The most similar command is
+	gc/jarvis.git/
+fatal: remote helper 'https' aborted session
+2026-07-24 17:06:44,453 INFO User: Thank you very much for watching this video. Thank you.
+2026-07-24 17:06:53,332 INFO Jarvis: Hello again, how can I assist you?
+2026-07-24 17:07:16,784 INFO User: Make them heavy. Make them heavy.
+2026-07-24 17:07:24,828 INFO Jarvis: I'll make sure to handle it heavily from now on.
+2026-07-24 17:07:48,129 INFO User: Do you want me to close the door for a minute or do you want me to close the door for a minute?
+2026-07-24 17:07:55,648 INFO Jarvis: Please rephrase your question.
+2026-07-24 17:09:02,856 INFO Wake word detected
+2026-07-24 17:09:14,914 INFO User: Commit changes.
+2026-07-24 17:10:05,858 INFO Jarvis: No active Git repository.
+2026-07-24 17:10:21,450 INFO User: Get status
+2026-07-24 17:10:28,610 INFO Jarvis: M assistant/agents/__pycache__/planner.cpython-312.pyc
+ M assistant/tools/__pycache__/vscode.cpython-312.pyc
+ M assistant/tools/vscode.py
+ M logs/jarvis.log
+ M memory/jarvis.db
+2026-07-24 17:11:05,999 INFO User: Commit changes.
+2026-07-24 17:11:11,735 INFO Jarvis: What should be the commit message?
+2026-07-24 17:11:24,269 INFO User: integrated GitHub workflow
+2026-07-24 17:11:31,076 INFO Jarvis: On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+2026-07-24 17:12:01,106 INFO User: Push the changes on Github.
+2026-07-24 17:12:09,374 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 17:12:45,859 INFO User: Yes, I'm going to eat.
+2026-07-24 17:12:52,138 INFO Jarvis: You're hungry
+2026-07-24 17:14:06,016 INFO User: Make up damage. Good evening, Aish. Main Jarvis hook. Volokia card high. Come fire and push the board. Kiss project. Copy card brought home. Aish. Commit changes in current project.
+2026-07-24 17:14:21,830 INFO Jarvis: No Git repository found in project folder: C:\Users\Asus\Desktop\My Work\.git\objects\ce
+2026-07-24 17:14:40,746 INFO User: is the current phi in eta.
+2026-07-24 17:14:44,177 INFO Jarvis: What's on your mind?
+2026-07-24 17:14:55,564 INFO User: Come on let it rain
+2026-07-24 17:14:58,968 INFO Jarvis: Let's talk about something else
+2026-07-24 17:15:13,958 INFO User: Commit changes in service.
+2026-07-24 17:15:42,020 INFO Jarvis: No active Git repository.
+2026-07-24 17:16:02,300 INFO User: Commit Changes in Jarvis
+2026-07-24 17:16:05,691 INFO Jarvis: What should be the commit message?
+2026-07-24 17:16:14,739 INFO User: Integrated GitHub Workflow
+2026-07-24 17:16:17,968 INFO Jarvis: Let's discuss something else
+2026-07-24 17:16:30,083 INFO User: Commit changes in Jarvis.
+2026-07-24 17:16:33,198 INFO Jarvis: What should be the commit message?
+2026-07-24 17:16:43,155 INFO User: Integrated GitHub workflow
+2026-07-24 17:16:46,183 INFO Jarvis: What should be the commit message?
+2026-07-24 17:16:53,772 INFO User: Integrated GitHub Workflow
+2026-07-24 17:16:57,091 INFO Jarvis: Let's discuss something else
+2026-07-24 17:17:29,448 INFO Wake word detected
+2026-07-24 17:17:36,620 INFO User: Commit changes.
+2026-07-24 17:17:52,144 INFO Jarvis: No active Git repository.
+2026-07-24 17:18:00,862 INFO User: Check git status
+2026-07-24 17:18:03,968 INFO Jarvis: M assistant/agents/__pycache__/planner.cpython-312.pyc
+ M assistant/tools/__pycache__/vscode.cpython-312.pyc
+ M assistant/tools/vscode.py
+ M logs/jarvis.log
+ M memory/jarvis.db
+2026-07-24 17:18:34,137 INFO User: Commit changes in Jarvis project
+2026-07-24 17:18:37,699 INFO Jarvis: What should be the commit message?
