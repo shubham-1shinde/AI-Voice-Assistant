@@ -85,3 +85,793 @@ wave.Error: # channels not specified
 2026-07-24 03:18:01,022 INFO Wake word detected
 2026-07-24 03:18:09,280 INFO User: Open GST Assistant
 2026-07-24 03:18:12,779 INFO Jarvis: Opening VS Code.
+2026-07-24 14:02:38,667 INFO Wake word detected
+2026-07-24 14:02:50,343 INFO User: Open GST assistant on VS Code
+2026-07-24 14:03:01,638 INFO Jarvis: Error running open_vscode: [WinError 2] The system cannot find the file specified
+2026-07-24 14:03:19,048 INFO User: Okay, I'll turn it off.
+2026-07-24 14:03:22,406 INFO Jarvis: Locking PC.
+2026-07-24 14:03:52,183 INFO User: Open youtube and play khoya hai.
+2026-07-24 14:03:56,221 INFO Jarvis: Opening https://www.youtube.com/watch?v=khoya-hai.
+2026-07-24 14:04:31,027 INFO User: You
+2026-07-24 14:04:34,515 INFO Jarvis: Who are you?
+2026-07-24 14:04:44,559 INFO User: My name is Shubham.
+2026-07-24 14:04:48,025 INFO Jarvis: Hello, I'm Jarvis. Nice to meet you, Shubham.
+2026-07-24 14:05:01,181 INFO User: Who is Prime Minister of India?
+2026-07-24 14:05:05,133 INFO Jarvis: Opening https://www.gov.in/.
+2026-07-24 14:05:43,841 INFO User: Thank you very much for watching, please subscribe and hit that like button.
+2026-07-24 14:05:47,241 INFO Jarvis: Nice to meet you Shubham.
+2026-07-24 14:06:25,186 INFO User: Thank you.
+2026-07-24 14:06:28,516 INFO Jarvis: Nice to meet you too
+2026-07-24 14:08:08,324 INFO Wake word detected
+2026-07-24 14:08:23,142 INFO User: Open VS Code.
+2026-07-24 14:08:26,629 INFO Jarvis: Opening VS Code.
+2026-07-24 14:08:37,171 INFO User: Open GST Assistant Project
+2026-07-24 14:08:40,805 INFO Jarvis: Opening project GST Assistant Project.
+2026-07-24 14:09:16,515 INFO User: Thank you.
+2026-07-24 14:09:20,460 INFO Jarvis: You're welcome
+2026-07-24 14:09:28,274 INFO User: Thank you very much.
+2026-07-24 14:09:31,382 INFO Jarvis: You're welcome
+2026-07-24 14:09:37,827 INFO User: Commit my changes.
+2026-07-24 14:09:41,186 INFO Jarvis: What should be the commit message?
+2026-07-24 14:09:52,035 INFO User: UPDATED COMMENT
+2026-07-24 14:09:55,526 INFO Jarvis: Changes committed successfully.
+2026-07-24 14:10:15,867 INFO User: You
+2026-07-24 14:10:18,997 INFO Jarvis: Who are you?
+2026-07-24 14:10:31,751 INFO User: Push to Github.
+2026-07-24 14:10:35,226 INFO Jarvis: fatal: The current branch Client has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Client
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2026-07-24 14:11:34,158 INFO User: Thank you very much.
+2026-07-24 14:11:37,739 INFO Jarvis: I'm Jarvis, your AI assistant.
+2026-07-24 14:12:42,857 INFO User: Hello.
+2026-07-24 14:12:46,181 INFO Jarvis: Hello back!
+2026-07-24 14:13:59,949 INFO Wake word detected
+2026-07-24 14:14:07,146 INFO User: Post-to-github
+2026-07-24 14:14:12,923 INFO Jarvis: Opening project Post-to-github.
+2026-07-24 14:14:44,160 INFO User: Open GST Assistant Project
+2026-07-24 14:14:47,557 INFO Jarvis: Opening project GST Assistant Project.
+2026-07-24 14:15:03,497 INFO User: Commit changes.
+2026-07-24 14:15:06,899 INFO Jarvis: What should be the commit message?
+2026-07-24 14:15:17,124 INFO User: UPDATE CONTACT ACCOUNTANT
+2026-07-24 14:15:20,469 INFO Jarvis: On branch Client
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	deleted:    ../C Tutorials/Array_GST_Calculations.c
+	deleted:    ../C Tutorials/Array_as_function.c
+	deleted:    ../C Tutorials/Arrays.c
+	deleted:    ../C Tutorials/DMA.c
+	deleted:    ../C Tutorials/Hellooo.txt
+	deleted:    ../C Tutorials/String length of words.c
+	deleted:    ../C Tutorials/Strings 2.c
+	deleted:    ../C Tutorials/Strings.c
+	deleted:    ../C Tutorials/addition_of_two_numbers.c
+	deleted:    ../C Tutorials/area calculations using function.c
+	deleted:    ../C Tutorials/array_of_structure.c
+	deleted:    ../C Tutorials/break_statement.c
+	deleted:    ../C Tutorials/do_while_loop.c
+	deleted:    ../C Tutorials/factorial_for_loop.c
+	deleted:    ../C Tutorials/factorial_for_loop.exe
+	deleted:    ../C Tutorials/for_loop.c
+	deleted:    ../C Tutorials/for_loop_numbers.c
+	deleted:    ../C Tutorials/function percentage calculation.c
+	deleted:    ../C Tutorials/function temp conversion.c
+	deleted:    ../C Tutorials/function_addition_of_numbers.c
+	deleted:    ../C Tutorials/function_gst_calculation.c
+	deleted:    ../C Tutorials/function_table_of_a_number.c
+	deleted:    ../C Tutorials/functions.c
+	deleted:    ../C Tutorials/functions.exe
+	deleted:    ../C Tutorials/functions_2.c
+	deleted:    ../C Tutorials/gets,puts,fgets functions.c
+	deleted:    ../C Tutorials/ifelse.c
+	deleted:    ../C Tutorials/ifelse.exe
+	deleted:    ../C Tutorials/ifelse_2.c
+	deleted:    ../C Tutorials/ifelse_uppercase_problem.c
+	deleted:    ../C Tutorials/nested_if.c
+	deleted:    ../C Tutorials/passing_structure_to_function.c
+	deleted:    ../C Tutorials/pointer to pointer chain.c
+	deleted:    ../C Tutorials/pointer_to_structure.c
+	deleted:    ../C Tutorials/pointer_to_structure.exe
+	deleted:    ../C Tutorials/pointer_to_stucture_with_arrow_opprator.c
+	deleted:    ../C Tutorials/pointer_to_stucture_with_arrow_opprator.exe
+	deleted:    ../C Tutorials/pointers.c
+	deleted:    ../C Tutorials/pointers.exe
+	deleted:    ../C Tutorials/reading_file.c
+	deleted:    ../C Tutorials/recursion addition of n numbers.c
+	deleted:    ../C Tutorials/recursion factorial.c
+	deleted:    ../C Tutorials/recursion.c
+	deleted:    ../C Tutorials/recursion.exe
+	deleted:    ../C Tutorials/sizeofvariables.c
+	deleted:    ../C Tutorials/square of a number.c
+	deleted:    ../C Tutorials/strcat_string_library.c
+	deleted:    ../C Tutorials/strcmp_string_library.c
+	deleted:    ../C Tutorials/strcpy_string_library.c
+	deleted:    ../C Tutorials/strlen_String_library.c
+	deleted:    ../C Tutorials/structure_.c
+	deleted:    ../C Tutorials/structure_2.c
+	deleted:    ../C Tutorials/sum_of_numbers_for_loop.c
+	deleted:    ../C Tutorials/switch_case.c
+	deleted:    ../C Tutorials/switch_case.exe
+	deleted:    ../C Tutorials/table_of_a_number_for_loop.c
+	deleted:    ../C Tutorials/tempCodeRunnerFile.c
+	deleted:    ../C Tutorials/tempCodeRunnerFile.exe
+	deleted:    ../C Tutorials/ternary_condtion_.c
+	deleted:    ../C Tutorials/ternary_condtion_.exe
+	deleted:    ../C Tutorials/typedef_keyword_for_structure.c
+	deleted:    ../C Tutorials/while_loop.c
+	deleted:    ../C++ Tutorials/Basics/Hello_World.cpp
+	deleted:    ../C++ Tutorials/Basics/Operators_in_cpp.cpp
+	deleted:    ../C++ Tutorials/Basics/addition.cpp
+	deleted:    ../C++ Tutorials/Basics/float_and_double_and_long_double_literals.cpp
+	deleted:    ../C++ Tutorials/Basics/hotel_bill.cpp
+	deleted:    ../C++ Tutorials/Basics/manipulators.cpp
+	deleted:    ../C++ Tutorials/Basics/typecasting.cpp
+	deleted:    ../C++ Tutorials/CPP
+	deleted:    ../C++ Tutorials/Conditional Statements and Loops/Tables.cpp
+	deleted:    ../C++ Tutorials/Conditional Statements and Loops/break_and_continue_statements_in_C++.cpp
+	deleted:    ../C++ Tutorials/Conditional Statements and Loops/if-else.cpp
+	deleted:    ../C++ Tutorials/Conditional Statements and Loops/loops.cpp
+	deleted:    ../C++ Tutorials/Conditional Statements and Loops/switch_case.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/Recursions_and_Recursive_functions.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/Swap_function.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/functions_and_prototypes.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recursion.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recursion_2.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recursion_fibonacci_series.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recursion_parameterised_way.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recursion_reverse_array.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recursion_subsequence.cpp
+	deleted:    ../C++ Tutorials/Functions and Recursion/recusion_functinal_way.cpp
+	deleted:    ../C++ Tutorials/OOPs/TA_1_PL.cpp
+	deleted:    ../C++ Tutorials/OOPs/classes.cpp
+	deleted:    ../C++ Tutorials/OOPs/classes_1.cpp
+	deleted:    ../C++ Tutorials/OOPs/classes_2.cpp
+	deleted:    ../C++ Tutorials/OOPs/constructor.cpp
+	deleted:    ../C++ Tutorials/OOPs/constructor_overloading.cpp
+	deleted:    ../C++ Tutorials/OOPs/constructor_with_default_argument.cpp
+	deleted:    ../C++ Tutorials/OOPs/nesting_of_member_function.cpp
+	deleted:    ../C++ Tutorials/OOPs/object_as_function_complex_no.cpp
+	deleted:    ../C++ Tutorials/OOPs/parameterizied_constructor.cpp
+	deleted:    ../C++ Tutorials/OOPs/static_data_member.cpp
+	deleted:    ../C++ Tutorials/Pointers/pointer_to_pointer.cpp
+	deleted:    ../C++ Tutorials/Pointers/pointers_.cpp
+	deleted:    ../C++ Tutorials/Pointers/pointers_and_arrays.cpp
+	deleted:    ../C++ Tutorials/Pointers/reference_variables.cpp
+	deleted:    ../C++ Tutorials/Structure/enum_.cpp
+	deleted:    ../C++ Tutorials/Structure/struct_.cpp
+	deleted:    ../C++ Tutorials/Structure/union_.cpp
+	deleted:    ../C++ Tutorials/tempCodeRunnerFile.python
+	deleted:    ../Careasa/UI/Clients.jsx
+	deleted:    ../Clg/coffee1.jpg
+	deleted:    ../Clg/coffee2.jpg
+	deleted:    ../Clg/coffee3.jpg
+	deleted:    ../Clg/wtpl_aasignment_9.php
+	deleted:    ../Clg/wtpl_assignment_10.html
+	deleted:    ../Clg/wtpl_assignment_11.html
+	deleted:    ../Clg/wtpl_assignment_1a.html
+	deleted:    ../Clg/wtpl_assignment_1b.html
+	deleted:    ../Clg/wtpl_assignment_2.html
+	deleted:    ../Clg/wtpl_assignment_3a.html
+	deleted:    ../Clg/wtpl_assignment_3b.html
+	deleted:    ../Clg/wtpl_assignment_4a.html
+	deleted:    ../Clg/wtpl_assignment_4b.html
+	deleted:    ../Clg/wtpl_assignment_5.html
+	deleted:    ../Clg/wtpl_assignment_6.html
+	deleted:    ../Clg/wtpl_assignment_7.html
+	deleted:    ../Clg/wtpl_assignment_7a.html
+	deleted:    ../Clg/wtpl_assignment_8.php
+	deleted:    ../DSA Tutorials/Arrays/2_sum_problem.cpp
+	deleted:    ../DSA Tutorials/Arrays/2_sum_problem.exe
+	deleted:    ../DSA Tutorials/Arrays/add_zeros_at_last.cpp
+	deleted:    ../DSA Tutorials/Arrays/array_is_sorted_or_not.cpp
+	deleted:    ../DSA Tutorials/Arrays/array_left_rotate_by_x.exe
+	deleted:    ../DSA Tutorials/Arrays/array_of _object.cpp
+	deleted:    ../DSA Tutorials/Arrays/array_remove_dublicate_element.exe
+	deleted:    ../DSA Tutorials/Arrays/arrays_.cpp
+	deleted:    ../DSA Tutorials/Arrays/arrys_in_classes.cpp
+	deleted:    ../DSA Tutorials/Arrays/best_time_to_buy_and_sell_stock.cpp
+	deleted:    ../DSA Tutorials/Arrays/find_missing_number.cpp
+	deleted:    ../DSA Tutorials/Arrays/find_missing_number.exe
+	deleted:    ../DSA Tutorials/Arrays/intersection_set.cpp
+	deleted:    ../DSA Tutorials/Arrays/largest_number.cpp
+	deleted:    ../DSA Tutorials/Arrays/leaders_in_array.cpp
+	deleted:    ../DSA Tutorials/Arrays/left_rotate_by_one.cpp
+	deleted:    ../DSA Tutorials/Arrays/left_rotate_by_x.cpp
+	deleted:    ../DSA Tutorials/Arrays/linear_search.cpp
+	deleted:    ../DSA Tutorials/Arrays/longest_consecutive_sequence.cpp
+	deleted:    ../DSA Tutorials/Arrays/longest_subarray_with_sum_a.cpp
+	deleted:    ../DSA Tutorials/Arrays/longest_subarray_with_sum_a.exe
+	deleted:    ../DSA Tutorials/Arrays/majority_element_using_moore's_algorithm.cpp
+	deleted:    ../DSA Tutorials/Arrays/majority_element_using_moores_algorithm.exe
+	deleted:    ../DSA Tutorials/Arrays/max_consecutive_number.cpp
+	deleted:    ../DSA Tutorials/Arrays/maximum_subarray_sum_using_kadane's_algorithm.cpp
+	deleted:    ../DSA Tutorials/Arrays/number_appers_once.cpp
+	deleted:    ../DSA Tutorials/Arrays/pascal's triangle.cpp
+	deleted:    ../DSA Tutorials/Arrays/rearranged_array_by_sign.cpp
+	deleted:    ../DSA Tutorials/Arrays/remove_dublicate_element.cpp
+	deleted:    ../DSA Tutorials/Arrays/rotate_matrix_by_90_degree.cpp
+	deleted:    ../DSA Tutorials/Arrays/sample_matrix.cpp
+	deleted:    ../DSA Tutorials/Arrays/second_largest_number.cpp
+	deleted:    ../DSA Tutorials/Arrays/second_largest_number_with_sorting.cpp
+	deleted:    ../DSA Tutorials/Arrays/set_matrix_zeroes.cpp
+	deleted:    ../DSA Tutorials/Arrays/sort_array_of_0,1,2_using_dutch_national_flag_algorithm.cpp
+	deleted:    ../DSA Tutorials/Arrays/sprial_traversal_of_matrix.cpp
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.c
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.coffeescript
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.cpp
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.exe
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.javascript
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.python
+	deleted:    ../DSA Tutorials/Arrays/tempCodeRunnerFile.ruby
+	deleted:    ../DSA Tutorials/Arrays/union_set.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/1.iterative_way_bs
+	deleted:    ../DSA Tutorials/Binary Seach/10_square_root_of_number_int.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/10_square_root_of_number_int.exe
+	deleted:    ../DSA Tutorials/Binary Seach/11_find_nth_root_of_number.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/11_find_nth_root_of_number.exe
+	deleted:    ../DSA Tutorials/Binary Seach/12_aayu_eating_apple.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/13_minimum_days_to_make_m_bouquets.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/14_finid_smallest_divisor_given_threshold.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/15_least_capacity_to_ship_packages_in_days.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/16_Kth_missing_number.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/17_aggressive_cows.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/18_allocate_books.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/19_painters_partition_or_split_array_largest_sum.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/1_iterative_way_bs.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/1_iterative_way_bs.exe
+	deleted:    ../DSA Tutorials/Binary Seach/20_BS_in_matrix.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/21_BS_in_matrix_return_coordinate.exe
+	deleted:    ../DSA Tutorials/Binary Seach/22_peak_element_in_matrix.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/23_row_with_max_no_of_1s.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/2_recursive_way_bs.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/2_recursive_way_bs.exe
+	deleted:    ../DSA Tutorials/Binary Seach/3_lower_and_upper_bound.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/4_first_and_last_occurrences_in_array.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/4_first_and_last_occurrences_in_array.exe
+	deleted:    ../DSA Tutorials/Binary Seach/5_search_element_in_rotated_sorted_array.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/5_search_element_in_rotated_sorted_array.exe
+	deleted:    ../DSA Tutorials/Binary Seach/6_minimum_number_in_rotated_sorted_array.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/7_how_many_times_array_rotated.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/8_single_element_in_sorted_array.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/8_single_element_in_sorted_array.exe
+	deleted:    ../DSA Tutorials/Binary Seach/9_find_peak_element_in_array.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/tempCodeRunnerFile.c
+	deleted:    ../DSA Tutorials/Binary Seach/tempCodeRunnerFile.cpp
+	deleted:    ../DSA Tutorials/Binary Seach/tempCodeRunnerFile.exe
+	deleted:    ../DSA Tutorials/Linked List/10_DLL_delete_kth_postion_and_element.cpp
+	deleted:    ../DSA Tutorials/Linked List/11_DLL_insert_at_k_or_before_el.cpp
+	deleted:    ../DSA Tutorials/Linked List/12_DLL_reverse.cpp
+	deleted:    ../DSA Tutorials/Linked List/13_LL_add2LL_i_e_reverse.cpp
+	deleted:    ../DSA Tutorials/Linked List/14_LL_seperate_odd_even_for_4_el.cpp
+	deleted:    ../DSA Tutorials/Linked List/15_LL_sort_0_1_2_s.cpp
+	deleted:    ../DSA Tutorials/Linked List/16_LL_remove_nth_node_from_last.cpp
+	deleted:    ../DSA Tutorials/Linked List/17_LL_reverse_by_using_iterative_and_recursive_way.cpp
+	deleted:    ../DSA Tutorials/Linked List/18_LL_checking_palindrome.cpp
+	deleted:    ../DSA Tutorials/Linked List/19_LL_middle_node.cpp
+	deleted:    ../DSA Tutorials/Linked List/19_LL_middle_node.exe
+	deleted:    ../DSA Tutorials/Linked List/1_LL_creating_node.cpp
+	deleted:    ../DSA Tutorials/Linked List/20_LL_detect_a_loop.cpp
+	deleted:    ../DSA Tutorials/Linked List/21_LL_length_of_loop.cpp
+	deleted:    ../DSA Tutorials/Linked List/22_LL_delete_middle_node.cpp
+	deleted:    ../DSA Tutorials/Linked List/23_LL_starting_point_of_loop.cpp
+	deleted:    ../DSA Tutorials/Linked List/24_DLL_delete_same_multiple_elements.cpp
+	deleted:    ../DSA Tutorials/Linked List/25_DLL_find_pair_of_given_sum.cpp
+	deleted:    ../DSA Tutorials/Linked List/26_DLL_remove_dublicate_elements.cpp
+	deleted:    ../DSA Tutorials/Linked List/27_LL_reverse_node_of_group_size_of_k.cpp
+	deleted:    ../DSA Tutorials/Linked List/28_LL_rotate_by_k.cpp
+	deleted:    ../DSA Tutorials/Linked List/28_LL_rotate_by_k.exe
+	deleted:    ../DSA Tutorials/Linked List/29_LL_merge_two_sorted_LL.cpp
+	deleted:    ../DSA Tutorials/Linked List/29_LL_merge_two_sorted_LL.exe
+	deleted:    ../DSA Tutorials/Linked List/2_LL_convert_array2LL_and_cout_lenght_and_search_element.cpp
+	deleted:    ../DSA Tutorials/Linked List/3_LL_delete_head_and_last_node.cpp
+	deleted:    ../DSA Tutorials/Linked List/4_LL_delete_kth_element_or_value.cpp
+	deleted:    ../DSA Tutorials/Linked List/5_LL_insert_head_and_last_node.cpp
+	deleted:    ../DSA Tutorials/Linked List/6_LL_insert_el_at_position_or_value.cpp
+	deleted:    ../DSA Tutorials/Linked List/7_DLL_create_node.cpp
+	deleted:    ../DSA Tutorials/Linked List/8_DLL_convert_array2DLL.cpp
+	deleted:    ../DSA Tutorials/Linked List/9_delete_head_and_tail.cpp
+	deleted:    ../DSA Tutorials/Linked List/tempCodeRunnerFile.c
+	deleted:    ../DSA Tutorials/Linked List/tempCodeRunnerFile.cpp
+	deleted:    ../DSA Tutorials/Linked List/tempCodeRunnerFile.exe
+	deleted:    ../DSA Tutorials/Sorting/Bubble_sort.cpp
+	deleted:    ../DSA Tutorials/Sorting/Insertion_sort.cpp
+	deleted:    ../DSA Tutorials/Sorting/Insertion_sort.exe
+	deleted:    ../DSA Tutorials/Sorting/Merge_sort.cpp
+	deleted:    ../DSA Tutorials/Sorting/Selection_sort.cpp
+	deleted:    ../DSA Tutorials/Sorting/quick_sort.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/10_infix_to_prefix_converter.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/11_postfix_to_infix_converter.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/12_prefix_to_infix_converter.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/12_prefix_to_infix_converter.exe
+	deleted:    ../DSA Tutorials/Stack and Queue/13_postfix_to_prefix_converter.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/14_prefix_to_postfix_converter.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/15_next_greater_element.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/16_previous_smaller_element.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/17_trapping_rainwater.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/1_stack_using_array.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/2_queue_using_array.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/3_stack_using_LL.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/4_queue_using_LL.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/5_stack_using_queue.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/6_queue_using_stack.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/7_check_balanced_parentheses.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/9_infix_to_postfix_conversion.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/9_infix_to_postfix_conversion.exe
+	deleted:    ../DSA Tutorials/Stack and Queue/tempCodeRunnerFile.cpp
+	deleted:    ../DSA Tutorials/Stack and Queue/tempCodeRunnerFile.exe
+	deleted:    ../DSA Tutorials/Trees/10_pre_in_postorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/11_height_of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/12_check_balanced_tree.cpp
+	deleted:    ../DSA Tutorials/Trees/13_diameter_of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/14_zig_zag_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/15_boundery_traversal_anticlockwise.cpp
+	deleted:    ../DSA Tutorials/Trees/15_boundery_traversal_anticlockwise.exe
+	deleted:    ../DSA Tutorials/Trees/16_vertical_order_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/17_top_view__of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/18_bottom_view_of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/19_right_and_left_view_of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/1_representation_of_tree.cpp
+	deleted:    ../DSA Tutorials/Trees/20_check_symmetrical_of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/21_print_path_between_root_to_node_in_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/22_lowest_common_ancestor_in_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/23_max_width_of_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/23_max_width_of_BT.exe
+	deleted:    ../DSA Tutorials/Trees/24_children_sum_property_in_BT.cpp
+	deleted:    ../DSA Tutorials/Trees/24_children_sum_property_in_BT.exe
+	deleted:    ../DSA Tutorials/Trees/2_preorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/2_preorder_traversal.exe
+	deleted:    ../DSA Tutorials/Trees/3_inorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/4_postorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/5_levelorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/6_Iterative_preorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/7_Iterative_inorder_traversal.cpp
+	deleted:    ../DSA Tutorials/Trees/8_Iterative_postorder_traversal_using_2_stacks.cpp
+	deleted:    ../DSA Tutorials/Trees/9_Iterative_postorder_traversal_using_stack.cpp
+	deleted:    ../DSA Tutorials/Trees/tempCodeRunnerFile.cpp
+	deleted:    ../DSA Tutorials/Trees/tempCodeRunnerFile.exe
+	deleted:    ../DSA Tutorials/ta2_jury.cpp
+	deleted:    ../DSA Tutorials/ta2_jury.exe
+	modified:   project (modified content)
+	deleted:    ../HTML,CSS,JS/.vscode/settings.json
+	deleted:    ../HTML,CSS,JS/SupplyChain.html
+	deleted:    ../HTML,CSS,JS/amazon_navbar/index.html
+	deleted:    ../HTML,CSS,JS/amazon_navbar/style.css
+	deleted:    ../HTML,CSS,JS/bacground_img/Adhiyogi.jpg
+	deleted:    ../HTML,CSS,JS/bacground_img/index.html
+	deleted:    ../HTML,CSS,JS/bacground_img/style.css
+	deleted:    ../HTML,CSS,JS/basic_tags/index.html
+	deleted:    ../HTML,CSS,JS/basic_tags/style.css
+	deleted:    ../HTML,CSS,JS/flex/index.html
+	deleted:    ../HTML,CSS,JS/flex/style.css
+	deleted:    ../HTML,CSS,JS/font_family/index.html
+	deleted:    ../HTML,CSS,JS/font_family/style.css
+	deleted:    ../HTML,CSS,JS/javascript_tutorials/index.html
+	deleted:    ../HTML,CSS,JS/javascript_tutorials/javascript.js
+	deleted:    ../HTML,CSS,JS/loading/index.html
+	deleted:    ../HTML,CSS,JS/loading/style.css
+	deleted:    ../HTML,CSS,JS/media/index.html
+	deleted:    ../HTML,CSS,JS/media/style.css
+	deleted:    ../HTML,CSS,JS/rgba/index.html
+	deleted:    ../HTML,CSS,JS/rgba/style.css
+	deleted:    ../HTML,CSS,JS/scroll_bar/index.html
+	deleted:    ../HTML,CSS,JS/scroll_bar/style.css
+	deleted:    ../HTML,CSS,JS/tempCodeRunnerFile.cpp
+	deleted:    ../HTML,CSS,JS/transcript_tutorials/index.html
+	deleted:    ../HTML,CSS,JS/transcript_tutorials/script.js
+	deleted:    ../HTML,CSS,JS/transcript_tutorials/script.ts
+	deleted:    ../HTML,CSS,JS/transcript_tutorials/style.css
+	deleted:    ../HTML,CSS,JS/tsconfig.json
+	deleted:    ../Python Tutorials/__pycache__/Final jury.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 1.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 10.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 11.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 12.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 13.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 2.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 3.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 4.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 5.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 6.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 7.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 8.py
+	deleted:    ../Python Tutorials/__pycache__/Python Assignment 9.py
+	deleted:    ../Python Tutorials/__pycache__/Python assignment 14.py
+	deleted:    ../Python Tutorials/__pycache__/final ss-1.png
+	deleted:    ../Python Tutorials/__pycache__/final ss-2.png
+	deleted:    ../Python Tutorials/__pycache__/orders.txt
+	deleted:    ../Python Tutorials/__pycache__/tempCodeRunnerFile.cpp
+	deleted:    ../Python Tutorials/__pycache__/tempCodeRunnerFile.exe
+	deleted:    ../Python Tutorials/__pycache__/tempCodeRunnerFile.py
+	deleted:    ../Python Tutorials/__pycache__/tempCodeRunnerFile.python
+	deleted:    ../Python Tutorials/__pycache__/tempCodeRunnerFile.r
+	deleted:    ../Python Tutorials/__pycache__/tempCodeRunnerFile.ruby
+	deleted:    ../Python Tutorials/__pycache__/test1.cpython-312.pyc
+	deleted:    ../Python Tutorials/assignment1.py
+	deleted:    ../Python Tutorials/assignment10.py
+	deleted:    ../Python Tutorials/assignment2.py
+	deleted:    ../Python Tutorials/assignment3.py
+	deleted:    ../Python Tutorials/assignment4.py
+	deleted:    ../Python Tutorials/assignment5.py
+	deleted:    ../Python Tutorials/assignment6.py
+	deleted:    ../Python Tutorials/assignment7.py
+	deleted:    ../Python Tutorials/assignment8.py
+	deleted:    ../Python Tutorials/assignment9.py
+	deleted:    ../Python Tutorials/hello.py
+	deleted:    ../Python Tutorials/tempCodeRunnerFile.python
+	deleted:    ../Python Tutorials/test1.py
+	deleted:    ../Python Tutorials/test2.py
+	deleted:    ../React Tutorials/01vitereact/.gitignore
+	deleted:    ../React Tutorials/01vitereact/README.md
+	deleted:    ../React Tutorials/01vitereact/eslint.config.js
+	deleted:    ../React Tutorials/01vitereact/index.html
+	deleted:    ../React Tutorials/01vitereact/package-lock.json
+	deleted:    ../React Tutorials/01vitereact/package.json
+	deleted:    ../React Tutorials/01vitereact/public/vite.svg
+	deleted:    ../React Tutorials/01vitereact/src/App.jsx
+	deleted:    ../React Tutorials/01vitereact/src/assets/react.svg
+	deleted:    ../React Tutorials/01vitereact/src/main.jsx
+	deleted:    ../React Tutorials/01vitereact/vite.config.js
+	deleted:    ../React Tutorials/02counter/.gitignore
+	deleted:    ../React Tutorials/02counter/README.md
+	deleted:    ../React Tutorials/02counter/eslint.config.js
+	deleted:    ../React Tutorials/02counter/index.html
+	deleted:    ../React Tutorials/02counter/package-lock.json
+	deleted:    ../React Tutorials/02counter/package.json
+	deleted:    ../React Tutorials/02counter/public/vite.svg
+	deleted:    ../React Tutorials/02counter/src/App.css
+	deleted:    ../React Tutorials/02counter/src/App.jsx
+	deleted:    ../React Tutorials/02counter/src/assets/react.svg
+	deleted:    ../React Tutorials/02counter/src/index.css
+	deleted:    ../React Tutorials/02counter/src/main.jsx
+	deleted:    ../React Tutorials/02counter/vite.config.js
+	deleted:    ../React Tutorials/03tailwindCSSprops/.gitignore
+	deleted:    ../React Tutorials/03tailwindCSSprops/README.md
+	deleted:    ../React Tutorials/03tailwindCSSprops/eslint.config.js
+	deleted:    ../React Tutorials/03tailwindCSSprops/index.html
+	deleted:    ../React Tutorials/03tailwindCSSprops/package-lock.json
+	deleted:    ../React Tutorials/03tailwindCSSprops/package.json
+	deleted:    ../React Tutorials/03tailwindCSSprops/postcss.config.js
+	deleted:    ../React Tutorials/03tailwindCSSprops/public/vite.svg
+	deleted:    ../React Tutorials/03tailwindCSSprops/src/App.css
+	deleted:    ../React Tutorials/03tailwindCSSprops/src/App.jsx
+	deleted:    ../React Tutorials/03tailwindCSSprops/src/assets/react.svg
+	deleted:    ../React Tutorials/03tailwindCSSprops/src/components/Card.jsx
+	deleted:    ../React Tutorials/03tailwindCSSprops/src/index.css
+	deleted:    ../React Tutorials/03tailwindCSSprops/src/main.jsx
+	deleted:    ../React Tutorials/03tailwindCSSprops/tailwind.config.js
+	deleted:    ../React Tutorials/03tailwindCSSprops/vite.config.js
+	deleted:    ../React Tutorials/04bgchanger/.gitignore
+	deleted:    ../React Tutorials/04bgchanger/README.md
+	deleted:    ../React Tutorials/04bgchanger/eslint.config.js
+	deleted:    ../React Tutorials/04bgchanger/index.html
+	deleted:    ../React Tutorials/04bgchanger/package-lock.json
+	deleted:    ../React Tutorials/04bgchanger/package.json
+	deleted:    ../React Tutorials/04bgchanger/postcss.config.js
+	deleted:    ../React Tutorials/04bgchanger/src/App.css
+	deleted:    ../React Tutorials/04bgchanger/src/App.jsx
+	deleted:    ../React Tutorials/04bgchanger/src/index.css
+	deleted:    ../React Tutorials/04bgchanger/src/main.jsx
+	deleted:    ../React Tutorials/04bgchanger/tailwind.config.js
+	deleted:    ../React Tutorials/04bgchanger/vite.config.js
+	deleted:    ../React Tutorials/05passgenerator/.gitignore
+	deleted:    ../React Tutorials/05passgenerator/README.md
+	deleted:    ../React Tutorials/05passgenerator/eslint.config.js
+	deleted:    ../React Tutorials/05passgenerator/index.html
+	deleted:    ../React Tutorials/05passgenerator/package-lock.json
+	deleted:    ../React Tutorials/05passgenerator/package.json
+	deleted:    ../React Tutorials/05passgenerator/postcss.config.js
+	deleted:    ../React Tutorials/05passgenerator/src/App.css
+	deleted:    ../React Tutorials/05passgenerator/src/App.jsx
+	deleted:    ../React Tutorials/05passgenerator/src/index.css
+	deleted:    ../React Tutorials/05passgenerator/src/main.jsx
+	deleted:    ../React Tutorials/05passgenerator/tailwind.config.js
+	deleted:    ../React Tutorials/05passgenerator/vite.config.js
+	deleted:    ../React Tutorials/06currency_converter/.gitignore
+	deleted:    ../React Tutorials/06currency_converter/README.md
+	deleted:    ../React Tutorials/06currency_converter/eslint.config.js
+	deleted:    ../React Tutorials/06currency_converter/index.html
+	deleted:    ../React Tutorials/06currency_converter/package-lock.json
+	deleted:    ../React Tutorials/06currency_converter/package.json
+	deleted:    ../React Tutorials/06currency_converter/postcss.config.js
+	deleted:    ../React Tutorials/06currency_converter/src/App.css
+	deleted:    ../React Tutorials/06currency_converter/src/App.jsx
+	deleted:    ../React Tutorials/06currency_converter/src/Components/InputBox.jsx
+	deleted:    ../React Tutorials/06currency_converter/src/Components/index.js
+	deleted:    ../React Tutorials/06currency_converter/src/hooks/useCurrencyInfo.js
+	deleted:    ../React Tutorials/06currency_converter/src/index.css
+	deleted:    ../React Tutorials/06currency_converter/src/main.jsx
+	deleted:    ../React Tutorials/06currency_converter/tailwind.config.js
+	deleted:    ../React Tutorials/06currency_converter/vite.config.js
+	deleted:    ../React Tutorials/07reactrouter/.gitignore
+	deleted:    ../React Tutorials/07reactrouter/README.md
+	deleted:    ../React Tutorials/07reactrouter/eslint.config.js
+	deleted:    ../React Tutorials/07reactrouter/index.html
+	deleted:    ../React Tutorials/07reactrouter/package-lock.json
+	deleted:    ../React Tutorials/07reactrouter/package.json
+	deleted:    ../React Tutorials/07reactrouter/public/vite.svg
+	deleted:    ../React Tutorials/07reactrouter/src/App.css
+	deleted:    ../React Tutorials/07reactrouter/src/App.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/Layout.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/assets/react.svg
+	deleted:    ../React Tutorials/07reactrouter/src/components/About/About.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/components/Contact/Contact.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/components/Footer/Footer.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/components/Github/Github.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/components/Header/Header.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/components/Home/Home.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/components/User/User.jsx
+	deleted:    ../React Tutorials/07reactrouter/src/index.css
+	deleted:    ../React Tutorials/07reactrouter/src/main.jsx
+	deleted:    ../React Tutorials/07reactrouter/vite.config.js
+	deleted:    ../React Tutorials/08minicontext/.gitignore
+	deleted:    ../React Tutorials/08minicontext/README.md
+	deleted:    ../React Tutorials/08minicontext/eslint.config.js
+	deleted:    ../React Tutorials/08minicontext/index.html
+	deleted:    ../React Tutorials/08minicontext/package-lock.json
+	deleted:    ../React Tutorials/08minicontext/package.json
+	deleted:    ../React Tutorials/08minicontext/public/vite.svg
+	deleted:    ../React Tutorials/08minicontext/src/App.css
+	deleted:    ../React Tutorials/08minicontext/src/App.jsx
+	deleted:    ../React Tutorials/08minicontext/src/assets/react.svg
+	deleted:    ../React Tutorials/08minicontext/src/components/Login.jsx
+	deleted:    ../React Tutorials/08minicontext/src/components/Profile.jsx
+	deleted:    ../React Tutorials/08minicontext/src/context/UserContext.js
+	deleted:    ../React Tutorials/08minicontext/src/context/UserContextProvider.jsx
+	deleted:    ../React Tutorials/08minicontext/src/index.css
+	deleted:    ../React Tutorials/08minicontext/src/main.jsx
+	deleted:    ../React Tutorials/08minicontext/vite.config.js
+	deleted:    ../React Tutorials/09themeswitcher/.gitignore
+	deleted:    ../React Tutorials/09themeswitcher/README.md
+	deleted:    ../React Tutorials/09themeswitcher/eslint.config.js
+	deleted:    ../React Tutorials/09themeswitcher/index.html
+	deleted:    ../React Tutorials/09themeswitcher/package-lock.json
+	deleted:    ../React Tutorials/09themeswitcher/package.json
+	deleted:    ../React Tutorials/09themeswitcher/public/vite.svg
+	deleted:    ../React Tutorials/09themeswitcher/src/App.css
+	deleted:    ../React Tutorials/09themeswitcher/src/App.jsx
+	deleted:    ../React Tutorials/09themeswitcher/src/assets/react.svg
+	deleted:    ../React Tutorials/09themeswitcher/src/components/Card.jsx
+	deleted:    ../React Tutorials/09themeswitcher/src/components/ThemeBtn.jsx
+	deleted:    ../React Tutorials/09themeswitcher/src/contexts/theme.js
+	deleted:    ../React Tutorials/09themeswitcher/src/index.css
+	deleted:    ../React Tutorials/09themeswitcher/src/main.jsx
+	deleted:    ../React Tutorials/09themeswitcher/vite.config.js
+	deleted:    ../React Tutorials/10todoContextLocal/.gitignore
+	deleted:    ../React Tutorials/10todoContextLocal/README.md
+	deleted:    ../React Tutorials/10todoContextLocal/eslint.config.js
+	deleted:    ../React Tutorials/10todoContextLocal/index.html
+	deleted:    ../React Tutorials/10todoContextLocal/package-lock.json
+	deleted:    ../React Tutorials/10todoContextLocal/package.json
+	deleted:    ../React Tutorials/10todoContextLocal/public/vite.svg
+	deleted:    ../React Tutorials/10todoContextLocal/src/App.css
+	deleted:    ../React Tutorials/10todoContextLocal/src/App.jsx
+	deleted:    ../React Tutorials/10todoContextLocal/src/assets/react.svg
+	deleted:    ../React Tutorials/10todoContextLocal/src/components/TodoForm.jsx
+	deleted:    ../React Tutorials/10todoContextLocal/src/components/TodoItem.jsx
+	deleted:    ../React Tutorials/10todoContextLocal/src/contexts/TodoContext.js
+	deleted:    ../React Tutorials/10todoContextLocal/src/contexts/index.js
+	deleted:    ../React Tutorials/10todoContextLocal/src/index.css
+	deleted:    ../React Tutorials/10todoContextLocal/src/main.jsx
+	deleted:    ../React Tutorials/10todoContextLocal/vite.config.js
+	deleted:    ../React Tutorials/11todoReduxToolkit/.gitignore
+	deleted:    ../React Tutorials/11todoReduxToolkit/README.md
+	deleted:    ../React Tutorials/11todoReduxToolkit/eslint.config.js
+	deleted:    ../React Tutorials/11todoReduxToolkit/index.html
+	deleted:    ../React Tutorials/11todoReduxToolkit/package-lock.json
+	deleted:    ../React Tutorials/11todoReduxToolkit/package.json
+	deleted:    ../React Tutorials/11todoReduxToolkit/public/vite.svg
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/App.css
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/App.jsx
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/app/store.js
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/assets/react.svg
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/components/AddTodo.jsx
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/components/Todos.jsx
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/features/todo/todoSlice.js
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/index.css
+	deleted:    ../React Tutorials/11todoReduxToolkit/src/main.jsx
+	deleted:    ../React Tutorials/11todoReduxToolkit/vite.config.js
+	deleted:    ../React Tutorials/12MegaProjectzip.zip
+	deleted:    ../React Tutorials/TwitterClone/.env
+	deleted:    ../React Tutorials/TwitterClone/.gitignore
+	deleted:    ../React Tutorials/TwitterClone/README.md
+	deleted:    ../React Tutorials/TwitterClone/eslint.config.js
+	deleted:    ../React Tutorials/TwitterClone/index.html
+	deleted:    ../React Tutorials/TwitterClone/package-lock.json
+	deleted:    ../React Tutorials/TwitterClone/package.json
+	deleted:    ../React Tutorials/TwitterClone/postcss.config.js
+	deleted:    ../React Tutorials/TwitterClone/public/vite.svg
+	deleted:    ../React Tutorials/TwitterClone/src/App.css
+	deleted:    ../React Tutorials/TwitterClone/src/App.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/appwrite/auth.js
+	deleted:    ../React Tutorials/TwitterClone/src/appwrite/config.js
+	deleted:    ../React Tutorials/TwitterClone/src/components/authLayout/AuthLayout.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/index.js
+	deleted:    ../React Tutorials/TwitterClone/src/components/layout/Layout.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/login/Login.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/logo/Logo.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/logo/twitter_logo.jpg
+	deleted:    ../React Tutorials/TwitterClone/src/components/postcard/Postcard.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/postcard/Upload.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/rightside/Rightside.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/Sidebar.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/apple.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/bgimg.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/community.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/cross.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/google.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/grok.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/home.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/light.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/messege.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/more.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/notify.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/premium.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/profile.png
+	deleted:    ../React Tutorials/TwitterClone/src/components/sidebar/logos/search.png
+	deleted:    ../React Tutorials/TwitterClone/src/conf/conf.js
+	deleted:    ../React Tutorials/TwitterClone/src/index.css
+	deleted:    ../React Tutorials/TwitterClone/src/main.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Communities.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Explore.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Grok.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Home.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Logout.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Messages.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Notifications.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Premium.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Profile.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Sign.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Signin.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Signup.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/pages/Verifiedorgs.jsx
+	deleted:    ../React Tutorials/TwitterClone/src/store/authSlice.js
+	deleted:    ../React Tutorials/TwitterClone/src/store/docSlice.js
+	deleted:    ../React Tutorials/TwitterClone/src/store/store.js
+	deleted:    ../React Tutorials/TwitterClone/tailwind.config.js
+	deleted:    ../React Tutorials/TwitterClone/vite.config.js
+	deleted:    ../React Tutorials/package-lock.json
+	deleted:    ../Web_Dev_Projects
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../Careasa/Doctors list/
+	../Careasa/TheraSim_Project/
+	../Careasa/UI/Client.jsx
+	../Careasa/UI/Community.jsx
+	../Careasa/UI/Sidebar.jsx
+	../Careasa/crm/
+	../Careasa/doctor/
+	../Careasa/forget password/
+	../Careasa/pricing packages/
+	../Careasa/therasim project/
+	../Careasa/therasim.zip
+	../Careasa/therasim/
+	../DSA/
+	../Ecommerse/
+	../GST Compliance.zip
+	../Jarvis/
+	../Java/
+	../Network Intrusion Detection System/
+	../Portfolio/
+	../Smart Retail Connect/
+	../SoleCraft/
+	../StreamSphere/
+	../Tutorials/
+	../Uniconnect/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+2026-07-24 14:15:40,009 INFO User: What did you say? What did you say? I was sleeping at the college.
+2026-07-24 14:15:46,095 INFO Jarvis: It seems like there's been a misunderstanding. The text you provided appears to be a Git log output, showing deleted files and untracked files in various directories. It doesn't seem to be related to 
+2026-07-24 14:16:39,799 INFO User: This is open gsp assistant project. Thank you.
+2026-07-24 14:16:47,529 INFO Jarvis: It seems like the text was a Git log output from an Open GSP (Google Summer of Code) project, showing deleted files and untracked files in various directories. The user then mentioned that this was re
+2026-07-24 14:17:11,437 INFO User: You can also use read functions like last mile or pen Open GST assistant project
+2026-07-24 14:17:18,283 INFO Jarvis: It seems like the conversation started with a Git log output, but then shifted to discussing an Open GSP (Google Summer of Code) project. The user mentioned using read functions like "last mile" or "p
+2026-07-24 14:18:33,855 INFO Wake word detected
+2026-07-24 14:18:41,989 INFO User: Open GST Assistant Project
+2026-07-24 14:18:45,715 INFO Jarvis: Opening project Open GST Assistant Project.
+2026-07-24 14:18:59,512 INFO User: Commit changes.
+2026-07-24 14:19:03,206 INFO Jarvis: What should be the commit message?
+2026-07-24 14:19:24,094 INFO User: Updated component
+2026-07-24 14:19:27,427 INFO Jarvis: What's next?
+2026-07-24 14:19:35,955 INFO User: Who's took it up?
+2026-07-24 14:19:39,523 INFO Jarvis: You asked who took it up, but I don't have that info.
+2026-07-24 14:19:51,483 INFO User: Push, pick it up.
+2026-07-24 14:19:56,523 INFO Jarvis: remote: Repository not found.
+fatal: repository 'https://github.com/shubham-1shinde/CPP.git/' not found
+2026-07-24 14:20:15,853 INFO User: PUSH TO GIT HUB
+2026-07-24 14:20:20,514 INFO Jarvis: remote: Repository not found.
+fatal: repository 'https://github.com/shubham-1shinde/CPP.git/' not found
+2026-07-24 14:21:09,925 INFO User: Thank you.
+2026-07-24 14:21:13,237 INFO Jarvis: You're welcome.
+2026-07-24 14:22:04,010 INFO User: Thank you.
+2026-07-24 14:22:07,403 INFO Jarvis: You're welcome.
+2026-07-24 14:22:38,960 INFO User: Thank you.
+2026-07-24 14:22:42,179 INFO Jarvis: You're welcome
+2026-07-24 14:23:19,527 INFO User: Thank you.
+2026-07-24 14:23:22,919 INFO Jarvis: You're welcome
+2026-07-24 14:23:34,964 INFO User: Thank you.
+2026-07-24 14:23:38,327 INFO Jarvis: You're welcome
+2026-07-24 14:23:49,591 INFO User: This is what it looks like.
+2026-07-24 14:23:52,752 INFO Jarvis: You're welcome again
+2026-07-24 14:24:29,555 INFO Wake word detected
+2026-07-24 14:24:36,980 INFO User: Open GST Assistant Project
+2026-07-24 14:24:40,323 INFO Jarvis: Opening project GST Assistant Project.
+2026-07-24 14:24:52,586 INFO User: Commit changes.
+2026-07-24 14:24:56,911 INFO Jarvis: No active Git repository.
+2026-07-24 14:25:12,523 INFO User: Good status.
+2026-07-24 14:25:15,704 INFO Jarvis: Good to hear
+2026-07-24 14:25:59,550 INFO User: You Thank you.
+2026-07-24 14:26:02,862 INFO Jarvis: You're welcome
+2026-07-24 14:34:29,893 INFO Wake word detected
+2026-07-24 14:34:40,081 INFO User: Open GST assistant project.
+2026-07-24 14:34:51,301 INFO Jarvis: Opening project GST assistant.
+2026-07-24 14:35:03,826 INFO User: Commit changes.
+2026-07-24 14:35:07,726 INFO Jarvis: Changes committed successfully.
+2026-07-24 14:35:26,574 INFO User: Post-it up.
+2026-07-24 14:35:29,796 INFO Jarvis: Unknown command: post-it.
+2026-07-24 14:35:38,087 INFO User: Push to GitHub
+2026-07-24 14:35:44,051 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 14:35:55,535 INFO User: I can't find that file with your name.
+2026-07-24 14:35:59,010 INFO Jarvis: I'm not sure what you're looking for.
+2026-07-24 14:36:11,987 INFO User: she had no boulder mage on 100
+2026-07-24 14:36:15,308 INFO Jarvis: I'm not aware of that file.
+2026-07-24 14:36:33,537 INFO User: I'm going to try and find the changes that you made. Commit changes.
+2026-07-24 14:36:37,320 INFO Jarvis: M frontend/src/pages/ContactAccountant.jsx
+2026-07-24 14:36:49,785 INFO User: Bye for now. Say the hi. Bye.
+2026-07-24 14:36:52,952 INFO Jarvis: Hi there!
+2026-07-24 14:37:07,287 INFO User: Comments changes.
+2026-07-24 14:37:10,511 INFO Jarvis: Hi again!
+2026-07-24 14:37:17,614 INFO User: Commit changes.
+2026-07-24 14:37:21,060 INFO Jarvis: Changes committed successfully.
+2026-07-24 14:37:29,059 INFO User: Push to get up.
+2026-07-24 14:37:35,078 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 14:37:44,503 INFO User: Thank you.
+2026-07-24 14:37:47,741 INFO Jarvis: You're welcome!
+2026-07-24 14:38:30,522 INFO User: So, let us take a look at some of the components that we have used in the previous video. Thank you very much.
+2026-07-24 14:38:34,119 INFO Jarvis: Let's review components from previous video.
+2026-07-24 14:39:13,741 INFO User: Thank you.
+2026-07-24 14:39:16,939 INFO Jarvis: You're welcome!
+2026-07-24 14:40:54,653 INFO Wake word detected
+2026-07-24 14:41:02,210 INFO User: Commit changes.
+2026-07-24 14:41:06,034 INFO Jarvis: Changes committed with message: 'Automated commit by Jarvis'
+2026-07-24 14:41:46,453 INFO User: Thank you.
+2026-07-24 14:41:49,674 INFO Jarvis: You're welcome!
+2026-07-24 14:42:29,096 INFO User: Thank you.
+2026-07-24 14:43:22,464 INFO Wake word detected
+2026-07-24 14:43:29,484 INFO User: Commit changes.
+2026-07-24 14:43:33,426 INFO Jarvis: What should be the commit message?
+2026-07-24 14:43:41,290 INFO User: Updated Component
+2026-07-24 14:43:44,421 INFO Jarvis: You're welcome again!
+2026-07-24 14:43:53,694 INFO User: Push to get up
+2026-07-24 14:43:58,867 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 14:44:38,841 INFO User: Thank you.
+2026-07-24 14:44:42,015 INFO Jarvis: You're welcome!
+2026-07-24 14:44:48,461 INFO User: Push-pocket Hub
+2026-07-24 14:44:53,223 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 14:45:32,391 INFO User: commit changes
+2026-07-24 14:45:35,639 INFO Jarvis: You can now use Push-pocket Hub
+2026-07-24 14:45:45,481 INFO User: Commit changes.
+2026-07-24 14:45:48,765 INFO Jarvis: What should be the commit message?
+2026-07-24 14:45:56,513 INFO User: UPDATED UI
+2026-07-24 14:45:59,614 INFO Jarvis: Please provide a commit message.
+2026-07-24 14:46:07,752 INFO User: UPDATED UI
+2026-07-24 14:46:11,249 INFO Jarvis: Changes committed with message: 'updated ui'
+2026-07-24 14:46:20,757 INFO User: Push to Github.
+2026-07-24 14:46:26,783 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 14:47:06,777 INFO User: Thank you.
+2026-07-24 14:47:09,965 INFO Jarvis: You're welcome
+2026-07-24 14:47:27,086 INFO User: Open YouTube and search BSA.
+2026-07-24 14:47:30,779 INFO Jarvis: Opening https://www.youtube.com/search?query=BSA.
+2026-07-24 14:48:36,212 INFO User: Someone is already invading. What? Alexa type, you can do that too. This is for the project. If you are just doing it for fun, they will invade your laptop. Why are you asking? Someone invades.
+2026-07-24 14:48:39,754 INFO Jarvis: I'm here to help with GST assistant.
+2026-07-24 14:49:43,092 INFO User: I'll use the name Yes, Mayush.
+2026-07-24 14:50:01,005 INFO Jarvis: Opening project yes, mayush.
+2026-07-24 14:50:44,323 INFO Wake word detected
+2026-07-24 14:50:52,424 INFO User: Commit changes.
+2026-07-24 14:50:56,201 INFO Jarvis: What should be the commit message?
+2026-07-24 14:51:04,804 INFO User: Updated workflow

@@ -9,10 +9,14 @@ from assistant.tools import tool_names
 SYSTEM_PROMPT = """You are Jarvis's command router. Given the user's request and recent \
 conversation, output ONLY a JSON object: {{"tool": "<tool_name>", "args": {{...}}, "speak": "<short reply>"}}.
 Pick tool from this list: {tools}
-If the request is just conversation with no matching tool, use "tool": "chat" and put the natural reply in "speak".
-If a required argument like a commit message is missing, put "" for it.
-Resolve pronouns like "it"/"them" using conversation history.
-Respond under 12 words in "speak". No markdown, JSON only."""
+
+Rules for args:
+- For opening projects/folders in VS Code or app commands, put the target name in "name", "project", or "path" keys inside args.
+- If opening a project in VS Code (e.g. "open GST assistant in vs code"), pick tool "open_vscode" or "open_project" with "args": {{"name": "<project_name>"}}.
+- If a required argument like a commit message is missing, put "" for it.
+- If the request is just conversation with no matching tool, use "tool": "chat" and put the natural reply in "speak".
+- Resolve pronouns like "it"/"them" using conversation history.
+- Respond under 12 words in "speak". No markdown, JSON only."""
 
 
 class Planner:
@@ -48,8 +52,9 @@ class Planner:
         if isinstance(raw_args, dict):
             data["args"] = raw_args
         elif isinstance(raw_args, str) and raw_args.strip():
-            # If Ollama outputs a string for args, wrap it cleanly
-            data["args"] = {"path": raw_args, "query": raw_args, "name": raw_args}
+            # If Ollama outputs a string for args, wrap it cleanly across common key names
+            clean_str = raw_args.strip()
+            data["args"] = {"name": clean_str, "project": clean_str, "path": clean_str, "query": clean_str}
         else:
             data["args"] = {}
 

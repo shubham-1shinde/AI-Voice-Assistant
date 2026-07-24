@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 from logging.handlers import RotatingFileHandler
 
 from assistant.config import cfg
@@ -9,70 +10,95 @@ from assistant.agents import run_task
 
 def setup_logging() -> logging.Logger:
     os.makedirs(os.path.dirname(cfg.log_path) or ".", exist_ok=True)
+
     logger = logging.getLogger("jarvis")
     logger.setLevel(logging.INFO)
-    handler = RotatingFileHandler(cfg.log_path, maxBytes=1_000_000, backupCount=3)
-    handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
-    logger.addHandler(handler)
+
+    if not logger.handlers:
+        handler = RotatingFileHandler(
+            cfg.log_path,
+            maxBytes=1_000_000,
+            backupCount=3
+        )
+        handler.setFormatter(
+            logging.Formatter("%(asctime)s %(levelname)s %(message)s")
+        )
+        logger.addHandler(handler)
+
     return logger
 
 
 def main() -> None:
     logger = setup_logging()
-    
+
     print("\n--- Initializing Jarvis Core Components ---")
+
     wake = WakeWordDetector()
     stt = SpeechToText()
     tts = TextToSpeech()
-    print("✅ All modules loaded successfully.\n")
 
-    print(f"Jarvis idle. Say 'Hey Jarvis' to wake...")
-    
+    print("All modules loaded successfully.\n")
+
+    print("Jarvis is sleeping. Say 'Hey Jarvis' to wake me.\n")
+
     while True:
         try:
+            # Wait for wake word
             wake.wait_for_wake()
+
             print("\n[Wake Word Detected!]")
             logger.info("Wake word detected")
-            
-            print("🔊 Speaking: 'Yes?'")
+
             tts.speak("Yes?")
 
-            while True:
-                print("🎙️ Listening for user command...")
-                text = stt.listen_and_transcribe()
-                
-                if not text:
-                    print("⚠️ No audio detected / Speech-to-Text returned empty.")
-                    print("🔊 Speaking: 'I didn't catch that.'")
-                    tts.speak("I didn't catch that.")
-                    break
+            # Stay awake for 2 minutes
+            awake_timeout = 120
+            awake_until = time.time() + awake_timeout
 
-                print(f"👤 User: {text}")
+            while time.time() < awake_until:
+
+                print("\nListening...")
+                text = stt.listen_and_transcribe()
+
+                # Nothing heard
+                if not text:
+                    continue
+
+                # Reset timer after every valid command
+                awake_until = time.time() + awake_timeout
+
+                print(f"You: {text}")
                 logger.info(f"User: {text}")
 
-                print("🤖 Processing task with Agent...")
+                print("Thinking...")
+
                 result = run_task(text)
-                
-                print(f"🤖 Jarvis: {result}")
+
+                if not result:
+                    result = "Done."
+
+                print(f"Jarvis: {result}")
                 logger.info(f"Jarvis: {result}")
 
-                print("🔊 Speaking response...")
                 tts.speak(result)
 
-                if result and result.endswith("?"):
-                    print("❓ Response ends with a question, listening for follow-up...")
-                    continue
-                break
-                
-            print("\nReturning to idle mode. Say 'Hey Jarvis' to wake...")
-            
+            print("\nNo activity for 2 minutes.")
+            tts.speak("Going back to sleep.")
+
+            print("\nWaiting for 'Hey Jarvis'...\n")
+
         except KeyboardInterrupt:
-            print("\nExiting Jarvis cleanly...")
+            print("\nStopping Jarvis...")
             break
+
         except Exception as exc:
-            print(f"❌ Error encountered: {exc}")
-            logger.exception("Error in main loop")
-            tts.speak("Something went wrong. Returning to idle.")
+            print(f"\nError: {exc}")
+            logger.exception("Main loop error")
+
+            try:
+                tts.speak("Something went wrong.")
+            except Exception:
+                pass
 
     wake.close()
     print("Jarvis stopped.")
