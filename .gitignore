@@ -48,3 +48,7 @@ Start Jarvis.bat
 # Logs
 logs/
 *.log
+
+# memory
+memory/
+*.db
