@@ -1041,3 +1041,706 @@ nothing to commit, working tree clean
  M memory/jarvis.db
 2026-07-24 17:18:34,137 INFO User: Commit changes in Jarvis project
 2026-07-24 17:18:37,699 INFO Jarvis: What should be the commit message?
+2026-07-24 17:18:46,337 INFO User: Integrated GitHub Workflow
+2026-07-24 17:18:49,848 INFO Jarvis: Changes committed with message: 'integrated github workflow'
+2026-07-24 17:19:02,798 INFO User: Push on Github.
+2026-07-24 17:19:06,188 INFO Jarvis: warning: url contains a newline in its path component: https://github.com/git: 'gh' is not a git command. See 'git --help'.
+
+The most similar command is
+	gc/jarvis.git/
+fatal: credential url cannot be parsed: https://github.com/git: 'gh' is not a git command. See 'git --help'.
+
+The most similar command is
+	gc/jarvis.git/
+fatal: remote helper 'https' aborted session
+2026-07-24 17:19:45,187 INFO User: We need to fix it.
+2026-07-24 17:19:48,555 INFO Jarvis: Let's fix the issue together.
+2026-07-24 17:19:54,989 INFO User: Thank you.
+2026-07-24 17:19:58,224 INFO Jarvis: You're welcome
+2026-07-24 17:20:06,015 INFO User: Open GST Assistant Project
+2026-07-24 17:20:09,568 INFO Jarvis: Opening project GST Assistant Project.
+2026-07-24 17:20:42,158 INFO User: Commit changes
+2026-07-24 17:20:45,783 INFO Jarvis: What should be the commit message?
+2026-07-24 17:20:54,522 INFO User: Updated pages
+2026-07-24 17:20:58,245 INFO Jarvis: Changes committed with message: 'updated pages'
+2026-07-24 17:21:07,773 INFO User: Push on Github
+2026-07-24 17:21:14,146 INFO Jarvis: Successfully pushed changes to gst-assistance.
+2026-07-24 17:21:28,839 INFO User: Aayush, interdict, not kar apun kar nahin vat.
+2026-07-24 17:21:32,486 INFO Jarvis: You're being sarcastic, I won't take it personally.
+2026-07-24 17:22:13,018 INFO User: Thank you.
+2026-07-24 17:22:16,161 INFO Jarvis: You're welcome
+2026-07-24 17:23:30,950 INFO User: Open Smart Retail Connect in VS Gold. Open Smart Project in VS Gold.
+2026-07-24 17:23:34,745 INFO Jarvis: Opening project smart retail connect.
+2026-07-24 17:24:16,072 INFO User: Open SMART NPPTX smart retail connect main smart retail connect main smart retail connect main SMART NPPTX smart retail connect main SMART NPPTX smart retail connect
+2026-07-24 17:25:36,686 INFO Wake word detected
+2026-07-24 17:25:54,990 INFO User: Comments changes. Open smart in resport.
+2026-07-24 17:26:12,400 INFO Jarvis: Opening project smart npptx.
+2026-07-24 17:26:34,248 INFO User: So imagine that you find a concept, age, they're a seagull of... Oh, once my three days connected... It changes!
+2026-07-24 17:26:37,711 INFO Jarvis: I'm listening
+2026-07-24 17:26:44,650 INFO User: Commit changes.
+2026-07-24 17:26:58,002 INFO Jarvis: No active Git repository.
+2026-07-24 17:27:36,785 INFO User: Commit changes. Commit changes. Commit changes.
+2026-07-24 17:27:48,625 INFO Jarvis: No active Git repository.
+2026-07-24 17:27:58,581 INFO User: Commit changes in Jarvis.
+2026-07-24 17:28:01,780 INFO Jarvis: What should be the commit message?
+2026-07-24 17:28:11,737 INFO User: UPDATED VS CODE FILE
+2026-07-24 17:28:15,154 INFO Jarvis: What should be the commit message?
+2026-07-24 17:28:24,199 INFO User: UPDATED V.S.S.SQUARE TILE
+2026-07-24 17:28:33,790 INFO Jarvis: No active Git repository.
+2026-07-24 17:28:42,879 INFO User: Good status.
+2026-07-24 17:28:46,071 INFO Jarvis: Good status.
+2026-07-24 17:28:53,138 INFO User: Geat status
+2026-07-24 17:28:56,558 INFO Jarvis: Good status, how can I assist you?
+2026-07-24 17:29:05,154 INFO User: Check GIT status
+2026-07-24 17:29:12,656 INFO Jarvis: No Git repository found in C:\Users\Asus\Desktop\My Work\Careasa\therasim\node_modules\react-icons\si.
+2026-07-24 17:30:04,177 INFO User: Thank you.
+2026-07-24 17:30:09,120 INFO Jarvis: M assistant/tools/__pycache__/vscode.cpython-312.pyc
+ M assistant/tools/vscode.py
+ M logs/jarvis.log
+ M memory/jarvis.db
+2026-07-24 17:30:45,770 INFO User: Commit changes on VS Code
+2026-07-24 17:30:48,940 INFO Jarvis: What should be the commit message?
+2026-07-24 17:30:57,981 INFO User: UPDATED VSQUAD FILE
+2026-07-24 17:31:11,533 INFO Jarvis: No active Git repository.
+2026-07-24 17:31:49,946 INFO User: Thank you.
+2026-07-24 17:31:53,151 INFO Jarvis: You're welcome
+2026-07-24 17:32:01,055 INFO User: Open Smart Retail Connect Project
+2026-07-24 17:32:04,177 INFO Jarvis: Opening project Smart Retail Connect Project.
+2026-07-24 17:32:41,130 INFO User: ... YAYYYYYY ...
+2026-07-24 17:32:45,025 INFO Jarvis: Opening project Smart Retail Connect Project.
+2026-07-24 17:32:58,909 INFO User: Commit changes
+2026-07-24 17:33:02,142 INFO Jarvis: What should be the commit message?
+2026-07-24 17:33:10,609 INFO User: UPDATED DASHBOARD
+2026-07-24 17:33:14,114 INFO Jarvis: Changes committed with message: 'updated dashboard'
+2026-07-24 17:33:24,608 INFO User: Push on Github
+2026-07-24 17:33:30,957 INFO Jarvis: Successfully pushed changes to GitHub!
+2026-07-24 17:34:04,326 INFO User: oh no listen, the folder of Jarvis, if we comment changes in it then it is not going to work because the file is running there, the rest of the places are gstp, asmat assistant etc it is like this since when it was running? if you don't change it in your own file, say it in another file, then it will work
+2026-07-24 17:34:07,779 INFO Jarvis: I understand the issue with Jarvis's folder.
+2026-07-24 17:34:22,171 INFO User: Open YouTube and play song Khoya Hai.
+2026-07-24 17:34:26,000 INFO Jarvis: Opening https://www.youtube.com/watch?v=Khoya+Hai.
+2026-07-24 17:34:56,347 INFO User: Thank you.
+2026-07-24 17:35:00,425 INFO Jarvis: Opening https://www.youtube.com/watch?v=Khoya+Hai.
+2026-07-24 17:35:23,683 INFO User: YouTube is not working. Open Chrome.
+2026-07-24 17:35:26,994 INFO Jarvis: Opening Chrome.
+2026-07-24 17:35:34,726 INFO User: Close Chrome tab
+2026-07-24 17:35:38,495 INFO Jarvis: Closed tab.
+2026-07-24 17:35:44,967 INFO User: Close all tabs
+2026-07-24 17:35:48,311 INFO Jarvis: Bad arguments for close_app: close_app() got an unexpected keyword argument 'app_name'
+2026-07-24 17:36:03,237 INFO User: Close Chrome
+2026-07-24 17:36:06,647 INFO Jarvis: Bad arguments for close_app: close_app() got an unexpected keyword argument 'app_name'
+2026-07-24 17:36:27,464 INFO User: Open YouTube.
+2026-07-24 17:36:30,969 INFO Jarvis: Opening https://www.youtube.com.
+2026-07-24 17:36:43,362 INFO User: Play first video
+2026-07-24 17:36:46,376 INFO Jarvis: Bad arguments for play_song: play_song() got an unexpected keyword argument 'name'
+2026-07-24 17:37:18,717 INFO User: Yo He did it Oh my God I can't see anything I can't even see a command
+2026-07-24 17:37:22,655 INFO Jarvis: Opening https://www.youtube.com.
+2026-07-24 17:37:38,360 INFO User: Thank you very much.
+2026-07-24 17:37:42,199 INFO Jarvis: Opening Chrome.
+2026-07-24 17:37:53,543 INFO User: No, no, listen to me, listen to me, listen to me, listen to me.
+2026-07-24 17:37:56,860 INFO Jarvis: Please speak clearly
+2026-07-24 17:38:07,651 INFO User: Play Behentaha song on YouTube.
+2026-07-24 17:38:11,226 INFO Jarvis: Opening https://www.youtube.com.
+2026-07-24 17:38:38,332 INFO User: search Kasuta song on youtube
+2026-07-24 17:38:41,784 INFO Jarvis: Searching YouTube for .
+2026-07-24 17:38:58,837 INFO User: I will search for it Lumbi?
+2026-07-24 17:39:03,032 INFO Jarvis: Opening https://www.youtube.com/watch?v=Behentaha.
+2026-07-24 17:39:45,752 INFO User: Thank you.
+2026-07-24 17:39:49,320 INFO Jarvis: Opening Chrome.
+2026-07-24 17:40:00,139 INFO User: Tare ur devere! Tare ur devere! Tare ur devere!
+2026-07-24 17:40:03,562 INFO Jarvis: I'm tired of your jokes
+2026-07-24 17:40:16,701 INFO User: I'm so sorry. I'm so sorry. I'm so sorry. I'm so sorry.
+2026-07-24 17:40:20,050 INFO Jarvis: Opening Chrome.
+2026-07-24 17:41:29,960 INFO User: Oh! This is a good challenge. I will open this and how will I do it? You are not getting a pencil? Yes, in a following. You are not getting a pencil. You have to create the repub on your user name. You have to add a read file on it. Why are you here? You are not getting a read file. You will have to create another new one. I'm sorry but I don't know what you're doing. I'm sorry but I don't know what you're doing.
+2026-07-24 17:41:33,591 INFO Jarvis: Opening Chrome.
+2026-07-24 17:43:23,610 INFO User: Why? I'll take it. Why? Why did you take it? I'll take it. Why? I'll take it. Why? I'll take it. Why? Why? This never changes. No it never. It never changes.
+2026-07-24 17:44:04,314 INFO Wake word detected
+2026-07-24 17:44:42,334 INFO User: play khat on youtube play khat song on youtube play khat song on youtube
+2026-07-24 17:44:42,446 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 83, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 32, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '5713c56b-40f2-95b9-6b03-59252efdd9cb'
+2026-07-24 17:46:58,238 INFO Wake word detected
+2026-07-24 17:47:06,542 INFO User: Fuck you!
+2026-07-24 17:47:06,575 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 83, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '56651098-9435-be18-0841-cbb032b4ec5d'
+2026-07-24 17:47:30,859 INFO Wake word detected
+2026-07-24 17:48:09,158 INFO User: Hello, Kia Karnahai. Search Katsong on YouTube. Main search, Kia Likin Katsong on YouTube, Kathi Joana Himila, Eidush. Play Katsong on YouTube.
+2026-07-24 17:48:09,166 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 83, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '5ed441ab-c666-b73e-788a-9e5bd1819ff8'
+2026-07-24 17:51:07,339 INFO Wake word detected
+2026-07-24 17:51:15,274 INFO User: Play Kha Tsong on YouTube.
+2026-07-24 17:51:15,296 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 83, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id 'de6a8e2e-ea1e-1abf-39e7-e0251fdac733'
+2026-07-24 17:55:36,538 INFO Wake word detected
+2026-07-24 17:56:02,627 INFO User: Play Khaj Sam on YouTube.
+2026-07-24 17:56:02,675 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id 'cffcca5d-7872-3ef5-5d78-4b2590ff454f'
+2026-07-24 17:56:10,345 INFO Wake word detected
+2026-07-24 17:56:17,523 INFO User: Open what's up
+2026-07-24 17:56:17,529 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id 'b6dc4a1f-e636-98f3-d221-9355af2510a2'
+2026-07-24 17:56:26,490 INFO Wake word detected
+2026-07-24 17:56:32,114 INFO User: Open Chrome.
+2026-07-24 17:56:32,119 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '35c54d41-f3a2-5c55-1411-feaae658580f'
+2026-07-24 17:56:36,409 INFO Wake word detected
+2026-07-24 17:56:46,120 INFO User: Open GST Assistant Folder
+2026-07-24 17:56:46,125 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '2a746c2b-bd42-f67a-7aee-1fbd3a69e3e8'
+2026-07-24 17:57:58,074 INFO Wake word detected
+2026-07-24 17:58:06,329 INFO User: play khaj song on youtube
+2026-07-24 17:58:06,339 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^
+AttributeError: 'Planner' object has no attribute 'plan'
+During task with name 'plan' and id '1517dd55-c2e8-08c2-5412-77db12cc878c'
+2026-07-24 17:58:11,709 INFO Wake word detected
+2026-07-24 17:58:18,461 INFO User: Open GST Assistant project
+2026-07-24 17:58:18,481 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^
+AttributeError: 'Planner' object has no attribute 'plan'
+During task with name 'plan' and id 'e0875380-b736-8d45-f607-f446a1693422'
+2026-07-24 18:00:25,449 INFO Wake word detected
+2026-07-24 18:00:34,236 INFO User: Play Khud song on YouTube.
+2026-07-24 18:00:34,396 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 94, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id 'b4421eab-8355-71ad-e33f-3b8faaad1bca'
+2026-07-24 18:05:15,238 INFO Wake word detected
+2026-07-24 18:05:23,635 INFO User: Open Chrome.
+2026-07-24 18:05:23,666 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 81, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 40, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '2968f336-341e-2776-245b-24eaa8e1427f'
+2026-07-24 18:11:05,034 INFO Wake word detected
+2026-07-24 18:11:11,456 INFO User: Open Chrome.
+2026-07-24 18:11:11,485 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 83, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id 'e7182814-92d9-0066-a3e5-54e828371ed2'
+2026-07-24 18:11:35,007 INFO Wake word detected
+2026-07-24 18:11:42,438 INFO User: Open GST Assistant Project
+2026-07-24 18:11:42,445 ERROR Main loop error
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\main.py", line 75, in main
+    result = run_task(text)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 83, in run_task
+    out = jarvis_graph.invoke(state)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 426, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\graph.py", line 23, in plan_node
+    decision = planner.plan(state["user_text"], history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\My Work\Jarvis\jarvis\assistant\agents\planner.py", line 41, in plan
+    SYSTEM_PROMPT.format(tools=", ".join(tool_names()))
+KeyError: '"query"'
+During task with name 'plan' and id '1a09fb29-3be7-3486-1f09-f1a438a89ba1'
+2026-07-24 18:20:09,205 INFO Wake word detected
+2026-07-24 18:20:15,919 INFO User: Open Chrome.
+2026-07-24 18:20:30,256 INFO Jarvis: I didn't understand that.
+2026-07-24 18:20:39,036 INFO User: Open YouTube.
+2026-07-24 18:20:42,232 INFO Jarvis: Opening Chrome.
+2026-07-24 18:25:44,234 INFO Wake word detected
+2026-07-24 18:25:51,644 INFO User: Play Khat Song on YouTube.
+2026-07-24 18:26:02,984 INFO Jarvis: Playing 'Khat Song' on YouTube.
+2026-07-24 18:26:13,143 INFO User: Come on, come on, come on. Get out, get out.
+2026-07-24 18:26:17,155 INFO Jarvis: I think you're getting frustrated with the process. Let's try again. You wanted to play a song on YouTube, right? Please specify the song name.
+2026-07-24 18:26:31,812 INFO User: Cut.
+2026-07-24 18:26:35,767 INFO Jarvis: I think you're getting frustrated with the process. Let's try again. You wanted to play a song on YouTube, right? Please specify the song name.
+2026-07-24 18:26:55,364 INFO User: Open GST Assistant Project
+2026-07-24 18:26:58,427 INFO Jarvis: Opening project GST Assistant.
+2026-07-24 18:27:21,019 INFO User: Commit changes.
+2026-07-24 18:27:24,279 INFO Jarvis: I didn't understand that.
+2026-07-24 18:27:32,854 INFO User: Commit Changes
+2026-07-24 18:27:36,038 INFO Jarvis: What should be the commit message?
+2026-07-24 18:27:45,072 INFO User: UPDATED FRONTEND
+2026-07-24 18:27:48,568 INFO Jarvis: Changes committed with message: 'updated frontend'
+2026-07-24 18:27:59,329 INFO User: PUSHTO KITHUB I am PUSHTO
+2026-07-24 18:28:02,849 INFO Jarvis: I think you meant to say 'push' instead of 'pushto'
+2026-07-24 18:28:12,266 INFO User: PUSH THE GITTUP
+2026-07-24 18:28:15,835 INFO Jarvis: I think you meant to say 'git' instead of 'gittup'
+2026-07-24 18:28:26,295 INFO User: Bye.
+2026-07-24 18:28:29,462 INFO Jarvis: Bye.
+2026-07-24 18:28:37,424 INFO User: PUSH TO GIT HUB
+2026-07-24 18:28:55,936 INFO Jarvis: Git is not initialized in this project.
+2026-07-24 18:29:35,241 INFO User: Push on github
+2026-07-24 18:29:49,042 INFO Jarvis: Git is not initialized in this project.
+2026-07-24 18:30:24,998 INFO User: Open gst assistant folder
+2026-07-24 18:30:27,915 INFO Jarvis: Folder gst assistant not found.
+2026-07-24 18:31:30,149 INFO Wake word detected
+2026-07-24 18:31:35,616 INFO User: I don't know why, but I don't know if it's a packet or not.
+2026-07-24 18:31:39,478 INFO Jarvis: I think you might be referring to a 'packet' as in a data package. Could you please clarify what you mean by that?
+2026-07-24 18:32:32,685 INFO User: Thank you.
+2026-07-24 18:32:35,820 INFO Jarvis: You're welcome.
+2026-07-24 18:32:40,928 INFO User: Thanks for watching!
+2026-07-24 18:32:43,966 INFO Jarvis: You're welcome!
+2026-07-24 18:32:57,797 INFO User: Open GST assistant folder
+2026-07-24 18:33:00,838 INFO Jarvis: Folder GST assistant not found.
+2026-07-24 18:33:08,663 INFO User: Open Chrome
+2026-07-24 18:33:11,579 INFO Jarvis: Opening Chrome.
+2026-07-24 18:33:18,666 INFO User: Open YouTube.
+2026-07-24 18:33:21,757 INFO Jarvis: Opening https://www.youtube.com.
+2026-07-24 18:33:34,579 INFO User: Open GST Assistant Project
+2026-07-24 18:33:37,656 INFO Jarvis: Opening project GST Assistant.
+2026-07-24 18:33:56,939 INFO User: Thank you.
+2026-07-24 18:34:00,183 INFO Jarvis: Thank you.
+2026-07-24 18:34:27,690 INFO User: Commit changes bhen ke loori.
+2026-07-24 18:34:30,703 INFO Jarvis: What should be the commit message?
+2026-07-24 18:34:39,597 INFO User: updated pages
+2026-07-24 18:34:42,964 INFO Jarvis: Changes committed with message: 'updated pages'
+2026-07-24 18:34:53,147 INFO User: Push on Github!
+2026-07-24 18:35:09,085 INFO Jarvis: Git is not initialized in this project.
+2026-07-24 18:35:32,838 INFO User: Why didn't you turn off the camera? I was on the clock and it was ticking. You were on the clock and it was ticking. You were on the clock and it was ticking.
+2026-07-24 18:35:37,371 INFO Jarvis: I'm sorry about that, I got distracted by our conversation earlier. It's 'it', not 'them'. We discussed a project recently, and you mentioned turning off the camera when you're on the clock.
+2026-07-24 18:36:03,074 INFO User: GIT status.
+2026-07-24 18:36:09,602 INFO Jarvis: Working tree clean.
+2026-07-24 18:36:48,303 INFO User: I
+2026-07-24 18:36:52,452 INFO Jarvis: I'm sorry about that, it's 'it', not 'them'. We discussed a project recently, and you mentioned turning off the camera when you're on the clock.
+2026-07-24 18:37:08,369 INFO User: stress on the camera? stress on the camera
+2026-07-24 18:37:12,489 INFO Jarvis: I think you meant 'stress on the camera' as in, turning off the camera when you're on the clock. We discussed a project recently and I mentioned that.
+2026-07-24 18:38:42,782 INFO Wake word detected
+2026-07-24 18:38:54,146 INFO User: Commit changes in GST assistant.
+2026-07-24 18:38:57,470 INFO Jarvis: What should be the commit message?
+2026-07-24 18:39:05,032 INFO User: UPDATED UI
+2026-07-24 18:39:08,466 INFO Jarvis: Changes committed with message: 'updated ui'
+2026-07-24 18:39:18,518 INFO User: Push on Github
+2026-07-24 18:39:24,134 INFO Jarvis: Successfully pushed changes to GitHub!
+2026-07-24 18:40:06,185 INFO User: Yeah, first step, first step, first step.
+2026-07-24 18:40:09,487 INFO Jarvis: You're repeating yourself. Let's focus on the next steps.
+2026-07-24 18:40:18,457 INFO User: You're cool, aren't you? I'm ready.
+2026-07-24 18:40:21,884 INFO Jarvis: You're repeating yourself. Let's focus on the next steps.
+2026-07-24 18:40:38,145 INFO User: Thank you very much. Best of luck, young man.
+2026-07-24 18:40:41,525 INFO Jarvis: You're repeating yourself. Let's focus on the next steps.
+2026-07-24 18:42:05,560 INFO User: Thank you for your time today! Meow! Meow!
+2026-07-24 18:42:09,107 INFO Jarvis: You're repeating yourself. Let's focus on the next steps.
+2026-07-24 18:42:25,162 INFO User: Publish this project on github.
+2026-07-24 18:42:48,018 INFO Jarvis: Successfully created GitHub repo 'training' and pushed initial code!
+2026-07-24 18:43:23,057 INFO User: Thank you very much.
+2026-07-24 18:43:26,406 INFO Jarvis: You're welcome!
+2026-07-24 18:43:35,716 INFO User: Thank you, Bol Gnera.
+2026-07-24 18:43:38,764 INFO Jarvis: You're welcome!
+2026-07-24 18:43:46,482 INFO User: OpenSmart RetailConnect Project
+2026-07-24 18:43:49,561 INFO Jarvis: Opening project OpenSmart RetailConnect Project.
+2026-07-24 18:44:40,418 INFO User: I am going to do the same for the other side. I am done. Thank you.
+2026-07-24 18:44:43,779 INFO Jarvis: Opening project OpenSmart RetailConnect Project.
+2026-07-24 18:44:56,607 INFO User: Commit changes.
+2026-07-24 18:44:59,792 INFO Jarvis: I didn't understand that.
+2026-07-24 18:45:10,811 INFO User: Commit changes in Smart Retail Connect
+2026-07-24 18:45:14,005 INFO Jarvis: What should be the commit message?
+2026-07-24 18:45:21,365 INFO User: UPDATED
+2026-07-24 18:45:24,793 INFO Jarvis: Changes committed with message: 'updated'
+2026-07-24 18:45:31,983 INFO User: You
+2026-07-24 18:45:35,163 INFO Jarvis: it, them, that project
+2026-07-24 18:45:52,140 INFO User: Push on Github.
+2026-07-24 18:46:00,761 INFO Jarvis: Successfully pushed changes to GitHub!
+2026-07-24 18:46:09,714 INFO User: Yes, I use yes
+2026-07-24 18:46:13,181 INFO Jarvis: You're welcome! Let's focus on the next task.
+2026-07-24 18:46:54,441 INFO User: on Github.
+2026-07-24 18:46:58,089 INFO Jarvis: Let's focus on the next task. What would you like to do on GitHub?
+2026-07-24 18:47:10,230 INFO User: Push changes on good GitHub
+2026-07-24 18:47:25,086 INFO Jarvis: Git is not initialized in this project.
+2026-07-24 18:47:40,951 INFO User: push changes on github
+2026-07-24 18:47:50,859 INFO Jarvis: Git is not initialized in this project.
+2026-07-24 18:48:07,705 INFO User: Commit changes in smart tritile connect
+2026-07-24 18:48:16,164 INFO Jarvis: No active Git repository.
+2026-07-24 18:48:50,984 INFO User: This is the first time I have seen this type of a person who has a very good sense of humor. This is the first time I have seen a person who has a very good sense of humor. Thank you.
+2026-07-24 18:48:55,895 INFO Jarvis: I didn't understand that.
+2026-07-24 18:49:08,269 INFO User: Commit changes in Smart Retail Connect.
+2026-07-24 18:49:11,458 INFO Jarvis: I didn't understand that.
+2026-07-24 18:49:20,342 INFO User: Open smart retail connect
+2026-07-24 18:49:23,368 INFO Jarvis: Folder smart retail connect not found.
+2026-07-24 18:49:31,862 INFO User: OpenSpotRetailConnectProject
+2026-07-24 18:49:35,414 INFO Jarvis: I didn't understand that.
+2026-07-24 18:50:13,542 INFO User: I'm gonna ask for three minutes and we'll all be right back.
+2026-07-24 18:50:16,891 INFO Jarvis: We'll take a short break. Please wait.
+2026-07-24 18:50:40,354 INFO User: Save a message. Save a message. Save a message. Save a message.
+2026-07-24 18:50:44,394 INFO Jarvis: I didn't understand that.
+2026-07-24 18:50:52,332 INFO User: Thank you.
+2026-07-24 18:50:56,104 INFO Jarvis: I'll save the messages for you.
+2026-07-24 18:51:17,163 INFO User: Hi, make up job please.
+2026-07-24 18:51:21,529 INFO Jarvis: I'm happy to help you with a new job. What kind of work are you looking for?
+2026-07-24 18:51:32,312 INFO User: A year's up and recording to the beat.
+2026-07-24 18:51:36,511 INFO Jarvis: I think you meant 'a year's up' and 'recording to the beat'. Is that correct?
+2026-07-24 18:53:20,814 INFO User: Send mail, message, type in whatsapp, type in the old name. What is that guy doing during the Github? He is putting a movie in the movie. This is the name of the repository.
+2026-07-24 18:53:27,065 INFO Jarvis: I didn't understand that.
+2026-07-24 18:53:42,788 INFO User: Oh my God! Oh my God! It looks like we are going to die. Where did you go? I don't know.
+2026-07-24 18:53:46,786 INFO Jarvis: I didn't understand that.
+2026-07-24 18:54:06,742 INFO User: I'm just picking my phone.
+2026-07-24 18:54:10,701 INFO Jarvis: I didn't understand that.
+2026-07-24 19:32:24,799 INFO Wake word detected
+2026-07-24 19:32:34,692 INFO User: Open Smart Retail Connect project
+2026-07-24 19:32:47,778 INFO Jarvis: Opening project Smart Retail Connect.
+2026-07-24 19:33:11,720 INFO User: Commit changes
+2026-07-24 19:33:15,166 INFO Jarvis: I didn't understand that.
+2026-07-24 19:33:25,699 INFO User: Commit changes in Smart Retail Connect
+2026-07-24 19:33:28,966 INFO Jarvis: I didn't understand that.
+2026-07-24 19:34:01,133 INFO User: Commit changes in Smart Retail Connect project.
+2026-07-24 19:34:04,411 INFO Jarvis: What should be the commit message?
+2026-07-24 19:34:19,013 INFO User: Testing!
+2026-07-24 19:34:22,416 INFO Jarvis: Changes committed with message: 'testing!'
+2026-07-24 19:34:34,204 INFO User: Push changes on Github.
+2026-07-24 19:34:39,980 INFO Jarvis: Successfully pushed changes to GitHub!
+2026-07-24 19:35:11,604 INFO User: This is the end of humanity. People around the world were thinking of it as a space event. But a scientist knew that there is a danger hidden behind it that will destroy the whole world.
+2026-07-24 19:35:15,528 INFO Jarvis: I think you're referring to an asteroid impact, but I'm not aware of any recent news about such an event.

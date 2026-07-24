@@ -297,29 +297,36 @@ def git_commit(message=None, project=None, *args, **kwargs):
 
 
 def git_push(project=None, *args, **kwargs):
-    path = _resolve_project_path(project)
+    """
+    Pushes committed local changes to the remote origin branch.
+    """
+    path = _resolve_project_path(project or kwargs.get("name") or kwargs.get("path"))
 
-    if not path or not os.path.exists(os.path.join(path, ".git")):
-        return f"No Git repository found in project folder: {path}"
+    if not path or not os.path.exists(path):
+        return "No valid project folder detected."
 
-    _, remote_url = _run_git(path, "config", "--get", "remote.origin.url")
+    # Verify if git is initialized
+    if not os.path.exists(os.path.join(path, ".git")):
+        return "Git is not initialized in this project."
 
-    ok, out = _run_git(path, "push")
+    # Check if a remote named 'origin' exists
+    ok, remote_url = _run_git(path, "remote", "get-url", "origin")
+    
+    # If origin URL is missing or corrupted with newlines, clean it up safely
+    if not ok or "\n" in remote_url or "not a git command" in remote_url.lower():
+        return "No valid Git remote 'origin' found. Please check your GitHub remote URL setup."
 
-    if ok:
-        repo_name = remote_url.split("/")[-1].replace(".git", "") if remote_url else "remote"
-        return f"Successfully pushed changes to {repo_name}."
+    # Try pushing current branch to origin
+    success, output = _run_git(path, "push", "-u", "origin", "main")
+    if success:
+        return "Successfully pushed changes to GitHub!"
+    
+    # Fallback to standard git push if branch tracking is already configured
+    success, output = _run_git(path, "push")
+    if success:
+        return "Successfully pushed changes to GitHub!"
 
-    if "has no upstream branch" in out or "autoSetupRemote" in out:
-        _, branch_name = _run_git(path, "rev-parse", "--abbrev-ref", "HEAD")
-        if branch_name:
-            ok_upstream, out_upstream = _run_git(path, "push", "--set-upstream", "origin", branch_name)
-            if ok_upstream:
-                return f"Pushed branch '{branch_name}' to repository."
-            return out_upstream
-
-    return out
-
+    return f"Failed to push: {output[:150]}"
 
 def git_pull(project=None, *args, **kwargs):
     path = _resolve_project_path(project)
@@ -439,6 +446,7 @@ def git_init_and_push_new_repo(repo_name=None, private=False, *args, **kwargs):
 
     error_msg = (result.stderr or result.stdout).strip()
     
+
 
     # Fallback: If repo already exists on GitHub, link and force push cleanly
     if "already exists" in error_msg.lower():
