@@ -25,6 +25,7 @@ TOOLS: dict[str, Callable] = {
     "git_create_branch": vscode.git_create_branch,
     "git_checkout_branch": vscode.git_checkout_branch,
     "git_merge_branch": vscode.git_merge_branch,
+    "git_init_and_push_new_repo": vscode.git_init_and_push_new_repo,
     # windows
     "open_app": windows_ctl.open_app,
     "close_app": windows_ctl.close_app,

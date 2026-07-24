@@ -11,8 +11,9 @@ conversation, output ONLY a JSON object: {{"tool": "<tool_name>", "args": {{...}
 Pick tool from this list: {tools}
 
 Rules for args:
-- For opening projects/folders in VS Code or app commands, put the target name in "name", "project", or "path" keys inside args.
+- For opening projects/folders or running Git commands on specific projects, put the target project name in "project", "name", or "path" inside args. (e.g. "commit changes in Smart Assistant" -> "tool": "git_commit", "args": {{"project": "Smart Assistant"}}).
 - If opening a project in VS Code (e.g. "open GST assistant in vs code"), pick tool "open_vscode" or "open_project" with "args": {{"name": "<project_name>"}}.
+- If initializing, creating a new repo, or publishing a new project to GitHub (e.g., "publish this project on GitHub", "create new repo for this project", "initialize and push to github"), pick tool "git_init_and_push_new_repo".
 - If a required argument like a commit message is missing, put "" for it.
 - If the request is just conversation with no matching tool, use "tool": "chat" and put the natural reply in "speak".
 - Resolve pronouns like "it"/"them" using conversation history.
@@ -37,7 +38,7 @@ class Planner:
         match = re.search(r"\{.*\}", raw, re.DOTALL)
         if not match:
             return {"tool": "chat", "args": {}, "speak": raw.strip()[:200]}
-        
+
         try:
             data = json.loads(match.group(0))
         except json.JSONDecodeError:

@@ -382,3 +382,74 @@ def run_terminal_command(command="", project=None, *args, **kwargs):
     )
 
     return (result.stdout or result.stderr or "Done.")[:300]
+
+def git_init_and_push_new_repo(repo_name=None, private=False, *args, **kwargs):
+    """
+    Automates whole workflow for a new local project:
+    1. Resolves active project path
+    2. Initializes Git local repository & cleans old remotes if present
+    3. Stages and commits all files
+    4. Sets main branch
+    5. Creates remote GitHub repository matching folder name
+    6. Links remote origin and pushes code
+    """
+    path = _resolve_project_path()
+
+    if not path or not os.path.exists(path):
+        return "No valid project folder detected."
+
+    # Use project folder name as default repository name
+    folder_name = os.path.basename(path.rstrip(os.sep))
+    
+    # Clean repo name (GitHub safe: lowercase, dashes only)
+    clean_repo_name = (
+        folder_name.lower()
+        .replace(" ", "-")
+        .replace("_", "-")
+        .strip()
+    )
+
+    # 1. Initialize local Git
+    _run_git(path, "init")
+
+    # Remove stale origin remote if it already exists to prevent "Unable to add remote origin" error
+    _run_git(path, "remote", "remove", "origin")
+
+    # 2. Stage & Commit
+    _run_git(path, "add", ".")
+    _run_git(path, "commit", "-m", "initial commit")
+
+    # 3. Ensure branch name is main
+    _run_git(path, "branch", "-M", "main")
+
+    # 4. Create GitHub repository using GitHub CLI
+    visibility = "--private" if private or kwargs.get("private") else "--public"
+    cmd = f"gh repo create {clean_repo_name} {visibility} --source=. --remote=origin --push"
+
+    result = subprocess.run(
+        cmd,
+        cwd=path,
+        shell=True,
+        capture_output=True,
+        text=True,
+    )
+
+    if result.returncode == 0:
+        return f"Successfully created GitHub repo '{clean_repo_name}' and pushed initial code!"
+
+    error_msg = (result.stderr or result.stdout).strip()
+
+    # Fallback: If repo already exists on GitHub, link and force push
+    if "already exists" in error_msg.lower():
+        # Get username from gh
+        _, username = _run_git(path, "gh", "api", "user", "-q", ".login")
+        user = username if username else "shubham-1shinde"
+        remote_url = f"https://github.com/{user}/{clean_repo_name}.git"
+        
+        _run_git(path, "remote", "add", "origin", remote_url)
+        ok, push_out = _run_git(path, "push", "-u", "origin", "main", "-f")
+        if ok:
+            return f"Linked and pushed code to existing repository '{clean_repo_name}'."
+        return f"Failed to push to existing repo: {push_out[:100]}"
+
+    return f"Failed to automate GitHub creation: {error_msg[:150]}"
